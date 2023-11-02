@@ -1,0 +1,14 @@
+{
+  "name": "figma-tokens",
+  "version": "0.0.1",
+  "description": "This is where we are testing figma tokens.",
+  "main": "index.js",
+  "scripts": {
+    "style-dictionary": "style-dictionary build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "style-dictionary": "^3.9.0"
+  }
+}
