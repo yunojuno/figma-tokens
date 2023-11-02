@@ -4,11 +4,14 @@
   "description": "This is where we are testing figma tokens.",
   "main": "index.js",
   "scripts": {
-    "style-dictionary": "style-dictionary build"
+    "style-dictionary": "style-dictionary build",
+    "token-transformer": "token-transformer tokens.json tokens/core.json core"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "style-dictionary": "^3.9.0"
+  "dependencies": {},
+  "devDependencies": {
+    "style-dictionary": "^3.9.0",
+    "token-transformer": "^0.0.33"
   }
 }
