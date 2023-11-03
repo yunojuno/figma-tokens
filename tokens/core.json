@@ -16,5 +16,13 @@
   "white": {
     "value": "#FFFFFF",
     "type": "color"
+  },
+  "color-button-primary-background": {
+    "value": "#47d7ac",
+    "type": "color"
+  },
+  "color-button-primary-foreground": {
+    "value": "#2D2926",
+    "type": "color"
   }
 }
