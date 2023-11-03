@@ -18,11 +18,11 @@
     "type": "color"
   },
   "color-button-primary-background": {
-    "value": "#47d7ac",
+    "value": "#4b4fc5",
     "type": "color"
   },
   "color-button-primary-foreground": {
-    "value": "#2D2926",
+    "value": "#FFFFFF",
     "type": "color"
   }
 }
