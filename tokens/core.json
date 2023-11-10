@@ -3,6 +3,10 @@
     "700": {
       "value": "#4b4fc5",
       "type": "color"
+    },
+    "800": {
+      "value": "#3A3DAA",
+      "type": "color"
     }
   },
   "lightgreen": {
@@ -23,6 +27,14 @@
   },
   "color-button-primary-foreground": {
     "value": "#FFFFFF",
+    "type": "color"
+  },
+  "purple-heart": {
+    "value": "#4A3ACC",
+    "type": "color"
+  },
+  "color-operating-structure": {
+    "value": "#4A3ACC",
     "type": "color"
   }
 }
