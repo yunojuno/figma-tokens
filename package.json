@@ -1,5 +1,5 @@
 {
-  "name": "figma-tokens",
+  "name": "@yunojuno/figma-tokens",
   "version": "0.0.2",
   "description": "This is where we are testing figma tokens.",
   "main": "index.js",
