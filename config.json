@@ -8,6 +8,10 @@
         {
           "destination": "_generated_variables.scss",
           "format": "scss/variables"
+        },
+        {
+          "format": "css/variables",
+          "destination": "_generated_variables.css"
         }
       ]
     }
