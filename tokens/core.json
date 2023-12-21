@@ -448,6 +448,13 @@
       "value": "#262736",
       "type": "color",
       "description": "Color can be used for small text. WCAG 3 (APCA) contrast is 101.6:1 against background #ffffff"
+    },
+    "border": {
+      "accent": {
+        "value": "#4d51c9",
+        "type": "color",
+        "description": "A border accent colour, typically used to highlight active elements"
+      }
     }
   }
 }
