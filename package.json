@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "style-dictionary": "style-dictionary build",
-    "token-transformer": "token-transformer tokens.json tokens/core.json core"
+    "token-transformer": "token-transformer tokens.json tokens/all.json"
   },
   "author": "",
   "license": "ISC",

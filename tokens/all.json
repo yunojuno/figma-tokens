@@ -1,5 +1,487 @@
 {
   "color": {
+    "operating-structure": {
+      "value": "#3a3daa",
+      "type": "color",
+      "description": "Temporary - used for E2E testing of figma tokens workflow"
+    },
+    "action": {
+      "primary": {
+        "default": {
+          "value": "#4d51c9",
+          "type": "color",
+          "description": "The primary colour for interactive elements"
+        },
+        "hover": {
+          "value": "#7d7df4",
+          "type": "color",
+          "description": "The colour used for the primary interactive elements when in a hover state"
+        }
+      },
+      "secondary": {
+        "default": {
+          "value": "#fed7c4",
+          "type": "color",
+          "description": "The secondary colour for interactive elements"
+        },
+        "hover": {
+          "value": "#ffeae1",
+          "type": "color",
+          "description": "The colour used for the secondary interactive elements when in a hover state"
+        }
+      },
+      "neutral": {
+        "disabled": {
+          "value": "#dfdfdf",
+          "type": "color",
+          "description": "The colour used for disabled interactive elements"
+        },
+        "default": {
+          "value": "#a5a5a5",
+          "type": "color",
+          "description": "A neutral colour for interactive elements, typically for an initial state"
+        },
+        "hover": {
+          "value": "#c5c5c5",
+          "type": "color",
+          "description": "The colour used for neutral interactive elements when in a active/selected state"
+        },
+        "active": {
+          "value": "#5babe9",
+          "type": "color",
+          "description": "The colour used for neutral interactive elements when in an active/selected state"
+        }
+      },
+      "inverse": {
+        "default": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "An inverse colour for interactive elements"
+        },
+        "hover": {
+          "value": "#eeeeee",
+          "type": "color",
+          "description": "The colour used for inverse interactive elements when in a hover state"
+        },
+        "disabled": {
+          "value": "#f7f7f7",
+          "type": "color",
+          "description": "The colour used for inverse interactive elements when in a disabled state"
+        }
+      }
+    },
+    "text": {
+      "primary": {
+        "value": "#282828",
+        "type": "color",
+        "description": "The primary colour for text elements"
+      },
+      "secondary": {
+        "value": "#616161",
+        "type": "color",
+        "description": "A secondary colour for text elements that require less visual emphasis"
+      },
+      "tertiary": {
+        "value": "#767676",
+        "type": "color",
+        "description": "A tertiary colour for text elements that require the least amount of visual emphasis"
+      },
+      "accent": {
+        "value": "#4d51c9",
+        "type": "color",
+        "description": "The highlight colour for text elements. Use sparingly"
+      },
+      "inverse": {
+        "value": "#ffffff",
+        "type": "color",
+        "description": "The colour for text in inverse or high-contrast situations, ensuring readability against a contrasting background"
+      }
+    },
+    "border": {
+      "primary": {
+        "value": "#eeeeee",
+        "type": "color",
+        "description": "Primary border colour"
+      },
+      "neutral": {
+        "value": "#ffffff",
+        "type": "color",
+        "description": "Neutral border colour that matches color.surface.layer.neutral"
+      },
+      "accent": {
+        "value": "#4d51c9",
+        "type": "color",
+        "description": "A border accent colour, typically used to highlight active elements"
+      }
+    },
+    "feedback": {
+      "positive": {
+        "value": "#74d7be",
+        "type": "color",
+        "description": "The colour for elements associated with positive feedback"
+      },
+      "warning": {
+        "value": "#e8c04e",
+        "type": "color",
+        "description": "The colour for elements associated with warnings"
+      },
+      "negative": {
+        "value": "#f84542",
+        "type": "color",
+        "description": "The colour for elements conveying negative feedback",
+        "text": {
+          "value": "{color.red600}",
+          "type": "color",
+          "description": "The text colour for elements conveying negative feedback"
+        }
+      },
+      "info": {
+        "value": "#95cbf3",
+        "type": "color",
+        "description": "The colour for elements conveying informational feedback",
+        "text": {
+          "value": "{color.skyblue600}",
+          "type": "color",
+          "description": "The text colour for elements conveying informational feedback"
+        }
+      },
+      "new": {
+        "value": "#288fde",
+        "type": "color",
+        "description": "The colour for new features and notifications"
+      },
+      "pending": {
+        "value": "#c5c5c5",
+        "type": "color",
+        "description": "The colour for pending statuses or information"
+      },
+      "background": {
+        "positive": {
+          "value": "#d1f6eb",
+          "type": "color",
+          "description": "The background colour for elements associated with positive feedback"
+        },
+        "warning": {
+          "value": "#fceeb8",
+          "type": "color",
+          "description": "The background colour for elements associated with warnings"
+        },
+        "negative": {
+          "value": "#ffd5d5",
+          "type": "color",
+          "description": "The background colour for elements conveying negative feedback"
+        },
+        "info": {
+          "value": "#daf2f8",
+          "type": "color",
+          "description": "The background colour for elements conveying informational feedback"
+        },
+        "pending": {
+          "value": "#eeeeee",
+          "type": "color",
+          "description": "The background colour for pending statuses or information"
+        }
+      },
+      "text": {
+        "negative": {
+          "value": "#d33a38",
+          "type": "color",
+          "description": "The text color for elements conveying negative feedback"
+        },
+        "info": {
+          "value": "#1f79be",
+          "type": "color",
+          "description": "The text colour for elements conveying informational feedback"
+        },
+        "positive": {
+          "value": "#158468",
+          "type": "color",
+          "description": "The text color for elements conveying positive feedback"
+        }
+      }
+    },
+    "availability": {
+      "active": {
+        "value": "#4d51c9",
+        "type": "color",
+        "description": "Colour for elements that communicate the state AvailabilityState.ACTIVE"
+      },
+      "passive": {
+        "value": "#74d7be",
+        "type": "color",
+        "description": "Colour for elements that communicate the state AvailabilityState.PASSIVE"
+      },
+      "inactive": {
+        "value": "#fab684",
+        "type": "color",
+        "description": "Colour for elements that communicate the state AvailabilityState.INACTIVE"
+      },
+      "background": {
+        "active": {
+          "value": "#ececff",
+          "type": "color",
+          "description": "Colour for background elements that communicate the state AvailabilityState.ACTIVE"
+        },
+        "passive": {
+          "value": "#d1f6eb",
+          "type": "color",
+          "description": "Colour for background elements that communicate the state AvailabilityState.PASSIVE"
+        }
+      },
+      "text": {
+        "passive": {
+          "value": "#106c55",
+          "type": "color",
+          "description": "Colour for text that communicates the state AvailabilityState.PASSIVE"
+        }
+      }
+    },
+    "compliance": {
+      "ir35-inside": {
+        "value": "#fab684",
+        "type": "color",
+        "description": "The colour for elements that communicate an Inside IR35 status"
+      },
+      "ir35-outside": {
+        "value": "#bfbffe",
+        "type": "color",
+        "description": "The colour for elements that communicate an Outside IR35 status"
+      },
+      "background": {
+        "ir35-inside": {
+          "value": "#ffeae1",
+          "type": "color",
+          "description": "The colour for background elements that communicate an Inside IR35 status"
+        },
+        "ir35-outside": {
+          "value": "#ececff",
+          "type": "color",
+          "description": "The colour for background elements that communicate an Outside IR35 status"
+        }
+      }
+    },
+    "classification": {
+      "ic": {
+        "value": "#bfbffe",
+        "type": "color",
+        "description": "The colour for elements that communicate the classification result is Independent Contractor"
+      },
+      "employee": {
+        "value": "#fab684",
+        "type": "color",
+        "description": "The colour for elements that communicate the classification result is Employee"
+      },
+      "background": {
+        "ic": {
+          "value": "#ececff",
+          "type": "color",
+          "description": "The colour for background elements that communicate the classification result is Independent Contractor"
+        },
+        "employee": {
+          "value": "#ffeae1",
+          "type": "color",
+          "description": "The colour for background elements that communicate the classification result is Employee"
+        }
+      }
+    },
+    "box": {
+      "primary": {
+        "value": "#eeeeee",
+        "type": "color",
+        "description": "Specifies a primary colour for containers"
+      },
+      "secondary": {
+        "value": "#f7f7f7",
+        "type": "color",
+        "description": "Specifies a secondary colour for containers"
+      },
+      "neutral": {
+        "value": "#ffffff",
+        "type": "color",
+        "description": "Specifies a neutral colour for containers"
+      }
+    },
+    "decor": {
+      "background": {
+        "blueberry": {
+          "50": {
+            "value": "#f8f8ff",
+            "type": "color",
+            "description": "Decor tokens do not convey a meaning, they are purely decorative. Use only when a more appropriate token does not exist"
+          },
+          "100": {
+            "value": "#ececff",
+            "type": "color",
+            "description": "Decor tokens do not convey a meaning, they are purely decorative. Use only when a more appropriate token does not exist"
+          },
+          "300": {
+            "value": "#bfbffe",
+            "type": "color",
+            "description": "Decor tokens do not convey a meaning, they are purely decorative. Use only when a more appropriate token does not exist"
+          },
+          "600": {
+            "value": "#6466e4",
+            "type": "color",
+            "description": "Decor tokens do not convey a meaning, they are purely decorative. Use only when a more appropriate token does not exist"
+          },
+          "700": {
+            "value": "#4d51c9",
+            "type": "color",
+            "description": "Decor tokens do not convey a meaning, they are purely decorative. Use only when a more appropriate token does not exist"
+          },
+          "800": {
+            "value": "#3a3daa",
+            "type": "color",
+            "description": "Decor tokens do not convey a meaning, they are purely decorative. Use only when a more appropriate token does not exist"
+          },
+          "900": {
+            "value": "#2d2f7c",
+            "type": "color",
+            "description": "Decor tokens do not convey a meaning, they are purely decorative. Use only when a more appropriate token does not exist"
+          }
+        },
+        "grey": {
+          "50": {
+            "value": "#f7f7f7",
+            "type": "color",
+            "description": "Decor tokens do not convey a meaning, they are purely decorative. Use only when a more appropriate token does not exist"
+          },
+          "100": {
+            "value": "#eeeeee",
+            "type": "color",
+            "description": "Decor tokens do not convey a meaning, they are purely decorative. Use only when a more appropriate token does not exist"
+          },
+          "900": {
+            "value": "#3a3a3a",
+            "type": "color",
+            "description": "Decor tokens do not convey a meaning, they are purely decorative. Use only when a more appropriate token does not exist"
+          }
+        },
+        "terracotta": {
+          "50": {
+            "value": "#fff6f3",
+            "type": "color",
+            "description": "Decor tokens do not convey a meaning, they are purely decorative. Use only when a more appropriate token does not exist"
+          },
+          "100": {
+            "value": "#ffeae1",
+            "type": "color"
+          },
+          "400": {
+            "value": "#e98d56",
+            "type": "color",
+            "description": "Decor tokens do not convey a meaning, they are purely decorative. Use only when a more appropriate token does not exist"
+          }
+        }
+      }
+    },
+    "achievement": {
+      "primary": {
+        "value": "#e8c04e",
+        "type": "color",
+        "description": "Primary colour for achievements and prizes"
+      },
+      "secondary": {
+        "value": "#c5c5c5",
+        "type": "color",
+        "description": "Secondary colour for achievements and prizes"
+      }
+    },
+    "input": {
+      "border": {
+        "default": {
+          "value": "#dfdfdf",
+          "type": "color",
+          "description": "The default border colour for elements that receive user input"
+        },
+        "active": {
+          "value": "#95cbf3",
+          "type": "color",
+          "description": "The border colour for elements that receive user input when in active state"
+        },
+        "disabled": {
+          "value": "#eeeeee",
+          "type": "color",
+          "description": "The border colour for elements that receive user input when in disabled state"
+        },
+        "hover": {
+          "value": "#c5c5c5",
+          "type": "color",
+          "description": "The border colour for elements that receive user input when in hover state"
+        }
+      },
+      "background": {
+        "default": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "The default background colour for elements that receive user input"
+        },
+        "disabled": {
+          "value": "#eeeeee",
+          "type": "color",
+          "description": "The background colour for elements that receive user input when in disabled state"
+        },
+        "hover": {
+          "value": "#eeeeee",
+          "type": "color",
+          "description": "The background colour for elements that receive user input when in hover state"
+        },
+        "checked": {
+          "value": "#4d51c9",
+          "type": "color",
+          "description": "The background colour for elements that receive user input when in checked state"
+        },
+        "active": {
+          "value": "#95cbf3",
+          "type": "color",
+          "description": "The background colour for elements that receive user input when in active state"
+        }
+      }
+    },
+    "priority": {
+      "high": {
+        "value": "#f84542",
+        "type": "color",
+        "description": "Colour to convey high priority information"
+      },
+      "medium": {
+        "value": "#e8c04e",
+        "type": "color",
+        "description": "Colour to convey medium priority information"
+      },
+      "low": {
+        "value": "#74d7be",
+        "type": "color",
+        "description": "Colour to convey low priority information"
+      }
+    },
+    "candidate": {
+      "available": {
+        "value": "#31b898",
+        "type": "color",
+        "description": "Colour to represent 'available' candidates"
+      },
+      "requested": {
+        "value": "#f6dd8e",
+        "type": "color",
+        "description": "Colour to represent 'requested/pending' candidates"
+      },
+      "unavailable": {
+        "value": "#f84542",
+        "type": "color",
+        "description": "Colour to represent candidates that have responded as 'unavailable'"
+      },
+      "applied": {
+        "value": "#2d2f7c",
+        "type": "color",
+        "description": "Colour to represent candidates that have 'applied'"
+      },
+      "submitted": {
+        "value": "#5babe9",
+        "type": "color",
+        "description": "Colour to represent candidates that have been 'submitted' by a recruiter"
+      }
+    },
     "description": {
       "value": "Core colour tokens at lightness of 100%",
       "type": "other"
@@ -448,6 +930,16 @@
       "value": "#262736",
       "type": "color",
       "description": "Color can be used for small text. WCAG 3 (APCA) contrast is 101.6:1 against background #ffffff"
+    }
+  },
+  "tokenSetOrder": {
+    "0": {
+      "value": "core",
+      "type": "other"
+    },
+    "1": {
+      "value": "semantic",
+      "type": "other"
     }
   }
 }
