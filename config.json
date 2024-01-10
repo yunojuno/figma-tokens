@@ -1,9 +1,9 @@
 {
   "source": ["tokens/all.json"],
   "platforms": {
-    "scss": {
+    "web": {
       "transformGroup": "scss",
-      "buildPath": "build/scss/",
+      "buildPath": "build/",
       "files": [
         {
           "destination": "_generated_variables.scss",
