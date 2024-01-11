@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 11 Jan 2024 15:31:03 GMT
+ * Generated on Thu, 11 Jan 2024 17:54:42 GMT
  */
 
 :root {
@@ -68,6 +68,7 @@
   --color-decor-background-grey-900: #3a3a3a;
   --color-decor-background-terracotta-50: #fff6f3;
   --color-decor-background-terracotta-100: #ffeae1;
+  --color-decor-background-terracotta-200: #fed7c4;
   --color-decor-background-terracotta-400: #e98d56;
   --color-decor-background-skyblue-50: #f1fafc;
   --color-achievement-primary: #e8c04e;
