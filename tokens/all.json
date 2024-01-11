@@ -299,6 +299,11 @@
         "value": "#ffffff",
         "type": "color",
         "description": "Specifies a neutral colour for containers"
+      },
+      "inverse": {
+        "value": "#282828",
+        "type": "color",
+        "description": "Specifies an inverse colour for containers"
       }
     },
     "decor": {
