@@ -489,6 +489,18 @@
         "description": "Colour to represent candidates that have been 'submitted' by a recruiter"
       }
     },
+    "surface": {
+      "primary": {
+        "value": "#f7f7f7",
+        "type": "color",
+        "description": "The primary surface colour for page backgrounds"
+      },
+      "accent": {
+        "value": "#202153",
+        "type": "color",
+        "description": "An accented surface colour, used for page backgrounds in modal views"
+      }
+    },
     "description": {
       "value": "Core colour tokens at lightness of 100%",
       "type": "other"
