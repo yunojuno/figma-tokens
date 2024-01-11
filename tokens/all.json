@@ -372,6 +372,13 @@
             "type": "color",
             "description": "Decor tokens do not convey a meaning, they are purely decorative. Use only when a more appropriate token does not exist"
           }
+        },
+        "skyblue": {
+          "50": {
+            "value": "#F1FAFC",
+            "type": "color",
+            "description": "Decor tokens do not convey a meaning, they are purely decorative. Use only when a more appropriate token does not exist"
+          }
         }
       }
     },
