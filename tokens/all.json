@@ -389,6 +389,11 @@
             "value": "#F1FAFC",
             "type": "color",
             "description": "Decor tokens do not convey a meaning, they are purely decorative. Use only when a more appropriate token does not exist"
+          },
+          "200": {
+            "value": "#bee4f8",
+            "type": "color",
+            "description": "Decor tokens do not convey a meaning, they are purely decorative. Use only when a more appropriate token does not exist"
           }
         }
       }
