@@ -20,12 +20,12 @@
       },
       "secondary": {
         "default": {
-          "value": "#fed7c4",
+          "value": "#ececff",
           "type": "color",
           "description": "The secondary colour for interactive elements"
         },
         "hover": {
-          "value": "#ffeae1",
+          "value": "#f8f8ff",
           "type": "color",
           "description": "The colour used for the secondary interactive elements when in a hover state"
         }
