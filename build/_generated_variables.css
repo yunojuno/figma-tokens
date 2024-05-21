@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 17 Jan 2024 15:49:26 GMT
+ * Generated on Tue, 21 May 2024 08:20:32 GMT
  */
 
 :root {
@@ -38,12 +38,13 @@
   --color-feedback-text-negative: #d33a38;
   --color-feedback-text-info: #1f79be;
   --color-feedback-text-positive: #158468;
-  --color-availability-active: #4d51c9;
-  --color-availability-passive: #74d7be;
+  --color-availability-active: #31b898;
+  --color-availability-passive: #95cbf3;
   --color-availability-inactive: #fab684;
-  --color-availability-background-active: #ececff;
-  --color-availability-background-passive: #d1f6eb;
-  --color-availability-text-passive: #106c55;
+  --color-availability-background-active: #d1f6eb;
+  --color-availability-background-passive: #daf2f8;
+  --color-availability-text-active: #106c55;
+  --color-availability-text-passive: #1b639b;
   --color-compliance-ir35-inside: #fab684;
   --color-compliance-ir35-outside: #bfbffe;
   --color-compliance-background-ir35-inside: #ffeae1;
@@ -72,6 +73,7 @@
   --color-decor-background-terracotta-400: #e98d56;
   --color-decor-background-skyblue-50: #f1fafc;
   --color-decor-background-skyblue-200: #bee4f8;
+  --color-decor-mint-50: #ebfbf7;
   --color-achievement-primary: #e8c04e;
   --color-achievement-secondary: #c5c5c5;
   --color-input-border-default: #dfdfdf;

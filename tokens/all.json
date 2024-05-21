@@ -202,12 +202,12 @@
     },
     "availability": {
       "active": {
-        "value": "#4d51c9",
+        "value": "#31b898",
         "type": "color",
         "description": "Colour for elements that communicate the state AvailabilityState.ACTIVE"
       },
       "passive": {
-        "value": "#74d7be",
+        "value": "#95cbf3",
         "type": "color",
         "description": "Colour for elements that communicate the state AvailabilityState.PASSIVE"
       },
@@ -218,19 +218,23 @@
       },
       "background": {
         "active": {
-          "value": "#ececff",
+          "value": "#d1f6eb",
           "type": "color",
           "description": "Colour for background elements that communicate the state AvailabilityState.ACTIVE"
         },
         "passive": {
-          "value": "#d1f6eb",
+          "value": "#daf2f8",
           "type": "color",
           "description": "Colour for background elements that communicate the state AvailabilityState.PASSIVE"
         }
       },
       "text": {
-        "passive": {
+        "active": {
           "value": "#106c55",
+          "type": "color"
+        },
+        "passive": {
+          "value": "#1b639b",
           "type": "color",
           "description": "Colour for text that communicates the state AvailabilityState.PASSIVE"
         }
@@ -395,6 +399,13 @@
             "type": "color",
             "description": "Decor tokens do not convey a meaning, they are purely decorative. Use only when a more appropriate token does not exist"
           }
+        }
+      },
+      "mint": {
+        "50": {
+          "value": "#ebfbf7",
+          "type": "color",
+          "description": "Decor tokens do not convey a meaning, they are purely decorative. Use only when a more appropriate token does not exist"
         }
       }
     },
