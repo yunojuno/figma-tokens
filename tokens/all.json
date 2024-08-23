@@ -1,10 +1,5 @@
 {
   "color": {
-    "operating-structure": {
-      "value": "#3a3daa",
-      "type": "color",
-      "description": "Temporary - used for E2E testing of figma tokens workflow"
-    },
     "action": {
       "primary": {
         "default": {
@@ -226,6 +221,10 @@
           "value": "#daf2f8",
           "type": "color",
           "description": "Colour for background elements that communicate the state AvailabilityState.PASSIVE"
+        },
+        "inactive": {
+          "value": "#ffeae1",
+          "type": "color"
         }
       },
       "text": {
@@ -237,6 +236,10 @@
           "value": "#1b639b",
           "type": "color",
           "description": "Colour for text that communicates the state AvailabilityState.PASSIVE"
+        },
+        "inactive": {
+          "value": "#b65b33",
+          "type": "color"
         }
       }
     },
@@ -396,7 +399,8 @@
           },
           "100": {
             "value": "#daf2f8",
-            "type": "color"
+            "type": "color",
+            "description": "Decor tokens do not convey a meaning, they are purely decorative. Use only when a more appropriate token does not exist"
           },
           "200": {
             "value": "#bee4f8",
