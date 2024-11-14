@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 29 Aug 2024 07:33:28 GMT
+ * Generated on Thu, 14 Nov 2024 11:32:39 GMT
  */
 
 :root {
@@ -34,9 +34,11 @@
   --color-feedback-background-negative: #ffd5d5;
   --color-feedback-background-info: #daf2f8;
   --color-feedback-background-pending: #eeeeee;
-  --color-feedback-text-negative: #d33a38;
-  --color-feedback-text-info: #1f79be;
-  --color-feedback-text-positive: #158468;
+  --color-feedback-text-negative: #ad302e;
+  --color-feedback-text-info: #1b639b;
+  --color-feedback-text-positive: #106c55;
+  --color-feedback-text-warning: #937010;
+  --color-feedback-text-pending: #5f5f76;
   --color-availability-active: #31b898;
   --color-availability-passive: #95cbf3;
   --color-availability-inactive: #fab684;

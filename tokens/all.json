@@ -179,19 +179,27 @@
       },
       "text": {
         "negative": {
-          "value": "#d33a38",
+          "value": "#ad302e",
           "type": "color",
           "description": "The text color for elements conveying negative feedback"
         },
         "info": {
-          "value": "#1f79be",
+          "value": "#1b639b",
           "type": "color",
           "description": "The text colour for elements conveying informational feedback"
         },
         "positive": {
-          "value": "#158468",
+          "value": "#106c55",
           "type": "color",
           "description": "The text color for elements conveying positive feedback"
+        },
+        "warning": {
+          "value": "#937010",
+          "type": "color"
+        },
+        "pending": {
+          "value": "#5f5f76",
+          "type": "color"
         }
       }
     },
