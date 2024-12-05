@@ -5,13 +5,15 @@
   "main": "index.js",
   "scripts": {
     "style-dictionary": "style-dictionary build",
-    "token-transformer": "token-transformer tokens.json tokens/all.json --expandTypography=true --expandShadow=true"
+    "token-transformer": "node transform-tokens.js"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "@tokens-studio/sd-transforms": "^1.2.9"
+  },
   "devDependencies": {
-    "style-dictionary": "^3.9.0",
-    "token-transformer": "^0.0.33"
-  }
+    "style-dictionary": "^4.2.0"
+  },
+  "type": "module"
 }
