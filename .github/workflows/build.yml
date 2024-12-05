@@ -3,6 +3,8 @@ name: Build
 on:
   push:
     branches: [main]
+  pull_request:
+    types: [opened, synchronize, reopened]
 permissions:
   # Github token permissions to write to the repo
   contents: write
