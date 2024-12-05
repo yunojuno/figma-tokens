@@ -544,10 +544,6 @@
         "description": "An accented surface colour, used for page backgrounds in modal views"
       }
     },
-    "description": {
-      "value": "Core colour tokens at lightness of 100%",
-      "type": "other"
-    },
     "white": {
       "value": "#ffffff",
       "type": "color",
