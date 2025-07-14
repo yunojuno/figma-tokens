@@ -435,6 +435,11 @@
         "value": "#c5c5c5",
         "type": "color",
         "description": "Secondary colour for achievements and prizes"
+      },
+      "tertiary": {
+        "value": "#eeeeee",
+        "type": "color",
+        "description": "Tertiary colour for achievements and prizes"
       }
     },
     "input": {
