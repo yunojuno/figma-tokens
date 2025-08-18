@@ -157,7 +157,7 @@
           "description": "The background colour for elements associated with positive feedback"
         },
         "warning": {
-          "value": "#fceeb8",
+          "value": "#fff9da",
           "type": "color",
           "description": "The background colour for elements associated with warnings"
         },
