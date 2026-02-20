@@ -152,7 +152,7 @@
       },
       "background": {
         "positive": {
-          "value": "#d1f6eb",
+          "value": "#ebfbf7",
           "type": "color",
           "description": "The background colour for elements associated with positive feedback"
         },
@@ -167,7 +167,7 @@
           "description": "The background colour for elements conveying negative feedback"
         },
         "info": {
-          "value": "#daf2f8",
+          "value": "#F1FAFC",
           "type": "color",
           "description": "The background colour for elements conveying informational feedback"
         },
