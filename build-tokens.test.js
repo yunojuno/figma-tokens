@@ -124,6 +124,39 @@ describe('collectTokens', () => {
     );
   });
 
+  it('treats $root as a token named after its parent group', () => {
+    const { tokens } = collectTokens(source({ modal: { padding: { $root: number(40) } } }));
+    assert.deepEqual(
+      tokens.map((t) => t.name),
+      ['modal-padding']
+    );
+  });
+
+  it('emits both $root and its siblings', () => {
+    const { tokens } = collectTokens(
+      source({ modal: { padding: { mobile: number(20), $root: number(40) } } })
+    );
+    assert.deepEqual(
+      tokens.map((t) => t.name),
+      ['modal-padding-mobile', 'modal-padding']
+    );
+  });
+
+  it('resolves a group nested under $root against the parent path', () => {
+    const { tokens } = collectTokens(source({ a: { b: { $root: { c: number(1) } } } }));
+    assert.deepEqual(
+      tokens.map((t) => t.name),
+      ['a-b-c']
+    );
+  });
+
+  it('throws rather than emitting an unnamed variable for a top-level $root', () => {
+    assert.throws(
+      () => collectTokens(source({ $root: number(40) })),
+      /resolves to an empty name/
+    );
+  });
+
   it('maps the original Figma path so aliases can be rewritten', () => {
     const { pathMap } = collectTokens(source({ 'Core space': { 'space-10': number(10) } }));
     assert.equal(pathMap.get('Core space.space-10'), 'space-10');
@@ -263,6 +296,12 @@ describe('the real token set', () => {
     const counts = new Map();
     for (const { name } of tokens) counts.set(name, (counts.get(name) ?? 0) + 1);
     assert.deepEqual([...counts].filter(([, n]) => n > 1), []);
+  });
+
+  it('publishes the $root modal padding alongside its mobile sibling', () => {
+    const byName = new Map(tokens.map((t) => [t.name, t.value]));
+    assert.equal(byName.get('space-modal-header-padding'), '40px');
+    assert.equal(byName.get('space-modal-header-padding-mobile'), '20px');
   });
 
   it('keeps the semantic colours aliased to the core palette in step', () => {

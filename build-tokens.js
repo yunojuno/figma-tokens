@@ -31,6 +31,8 @@ const HEADER = 'Do not edit directly, this file was auto-generated.';
 const slug = (segment) => segment.trim().toLowerCase().replace(/[\s_]+/g, '-');
 
 export function cleanPath(path) {
+  if (path.length === 0) return [];
+
   const [head, ...rest] = path;
   const renamed = head in COLLECTION_RENAMES ? COLLECTION_RENAMES[head] : head;
   const segments = renamed === null ? rest : [renamed, ...rest];
@@ -44,10 +46,17 @@ const isReference = (value) => typeof value === 'string' && /^\{.+\}$/.test(valu
 
 function walk(node, path, visit) {
   for (const [key, value] of Object.entries(node)) {
-    if (key.startsWith('$')) continue;
+    // `$root` holds the token named after its own group, which is how Figma
+    // exports a variable whose name is also a group prefix: `modal.header
+    // .padding` sitting alongside `modal.header.padding.mobile`. Every other
+    // `$` key is metadata ($type, $value, $description, $extensions).
+    const isRoot = key === '$root';
+    if (key.startsWith('$') && !isRoot) continue;
     if (value === null || typeof value !== 'object') continue;
-    if (value.$value !== undefined) visit([...path, key], value);
-    else walk(value, [...path, key], visit);
+
+    const next = isRoot ? path : [...path, key];
+    if (value.$value !== undefined) visit(next, value);
+    else walk(value, next, visit);
   }
 }
 
@@ -80,6 +89,9 @@ export function collectTokens(sources) {
     walk(contents, [], (path, token) => {
       const cleaned = cleanPath(path);
       const key = cleaned.join('.');
+      if (cleaned.length === 0) {
+        throw new Error(`Token in ${file} resolves to an empty name (path: ${path.join('.')})`);
+      }
       if (seen.has(key)) {
         throw new Error(`Duplicate token name "${key}" from ${seen.get(key)} and ${file}`);
       }
