@@ -24,6 +24,9 @@ jobs:
         run: npm install
       - name: Build styles
         run: npm run build
+      # Runs after the build so the generated files under test are current.
+      - name: Test
+        run: npm test
       # Commit all changed files back to the repository
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v6

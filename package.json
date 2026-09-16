@@ -4,7 +4,8 @@
   "description": "This is where we are testing figma tokens.",
   "main": "index.js",
   "scripts": {
-    "build": "node build-tokens.js"
+    "build": "node build-tokens.js",
+    "test": "node --test --test-reporter=spec"
   },
   "author": "",
   "license": "ISC",

@@ -1,8 +1,11 @@
 import { mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
+import { pathToFileURL } from 'node:url';
 
-const TOKENS_DIR = 'tokens';
-const BUILD_DIR = 'build';
+export const TOKENS_DIR = 'tokens';
+export const BUILD_DIR = 'build';
+export const CSS_FILE = '_generated_variables.css';
+export const SCSS_FILE = '_generated_variables.scss';
 
 // Figma names its variable collections for designers, not for CSS. These
 // rewrite the top-level group of a path: `null` drops the segment entirely.
@@ -27,7 +30,7 @@ const HEADER = 'Do not edit directly, this file was auto-generated.';
 
 const slug = (segment) => segment.trim().toLowerCase().replace(/[\s_]+/g, '-');
 
-function cleanPath(path) {
+export function cleanPath(path) {
   const [head, ...rest] = path;
   const renamed = head in COLLECTION_RENAMES ? COLLECTION_RENAMES[head] : head;
   const segments = renamed === null ? rest : [renamed, ...rest];
@@ -48,33 +51,7 @@ function walk(node, path, visit) {
   }
 }
 
-function collectTokens() {
-  const files = readdirSync(TOKENS_DIR)
-    .filter((file) => file.endsWith('.tokens.json'))
-    .sort();
-
-  const tokens = [];
-  const pathMap = new Map(); // original dot path -> cleaned dot path
-  const seen = new Map();
-
-  for (const file of files) {
-    const contents = JSON.parse(readFileSync(join(TOKENS_DIR, file), 'utf8'));
-    walk(contents, [], (path, token) => {
-      const cleaned = cleanPath(path);
-      const key = cleaned.join('.');
-      if (seen.has(key)) {
-        throw new Error(`Duplicate token name "${key}" from ${seen.get(key)} and ${file}`);
-      }
-      seen.set(key, file);
-      pathMap.set(path.join('.'), key);
-      tokens.push({ key, name: cleaned.join('-'), token });
-    });
-  }
-
-  return { tokens, pathMap, files };
-}
-
-function literalValue(token) {
+export function literalValue(token) {
   const { $type: type, $value: value } = token;
 
   if (type === 'color') {
@@ -93,8 +70,31 @@ function literalValue(token) {
   return value;
 }
 
-function resolveTokens() {
-  const { tokens, pathMap, files } = collectTokens();
+/** Flattens `[{ file, contents }]` into tokens keyed by their cleaned path. */
+export function collectTokens(sources) {
+  const tokens = [];
+  const pathMap = new Map(); // original dot path -> cleaned dot path
+  const seen = new Map();
+
+  for (const { file, contents } of sources) {
+    walk(contents, [], (path, token) => {
+      const cleaned = cleanPath(path);
+      const key = cleaned.join('.');
+      if (seen.has(key)) {
+        throw new Error(`Duplicate token name "${key}" from ${seen.get(key)} and ${file}`);
+      }
+      seen.set(key, file);
+      pathMap.set(path.join('.'), key);
+      tokens.push({ key, name: cleaned.join('-'), token });
+    });
+  }
+
+  return { tokens, pathMap };
+}
+
+/** Resolves every alias down to a literal, ready for rendering. */
+export function resolveTokens(sources) {
+  const { tokens, pathMap } = collectTokens(sources);
   const byKey = new Map(tokens.map((entry) => [entry.key, entry]));
 
   const resolve = (entry, chain = []) => {
@@ -110,16 +110,14 @@ function resolveTokens() {
     return resolve(next, [...chain, target]);
   };
 
-  const resolved = tokens.map((entry) => ({
+  return tokens.map((entry) => ({
     name: entry.name,
     value: resolve(entry),
     description: entry.token.$description,
   }));
-
-  return { resolved, files };
 }
 
-function renderCss(tokens) {
+export function renderCss(tokens) {
   const lines = tokens.map(({ name, value, description }) => {
     const comment = description ? ` /* ${description} */` : '';
     return `  --${name}: ${value};${comment}`;
@@ -127,7 +125,7 @@ function renderCss(tokens) {
   return `/**\n * ${HEADER}\n */\n\n:root {\n${lines.join('\n')}\n}\n`;
 }
 
-function renderScss(tokens) {
+export function renderScss(tokens) {
   const lines = tokens.map(({ name, value, description }) => {
     const comment = description ? ` // ${description}` : '';
     return `$${name}: ${value};${comment}`;
@@ -135,11 +133,31 @@ function renderScss(tokens) {
   return `\n// ${HEADER}\n\n${lines.join('\n')}\n`;
 }
 
-const { resolved, files } = resolveTokens();
+export function readTokenFiles(tokensDir = TOKENS_DIR) {
+  return readdirSync(tokensDir)
+    .filter((file) => file.endsWith('.tokens.json'))
+    .sort()
+    .map((file) => ({
+      file,
+      contents: JSON.parse(readFileSync(join(tokensDir, file), 'utf8')),
+    }));
+}
 
-mkdirSync(BUILD_DIR, { recursive: true });
-writeFileSync(join(BUILD_DIR, '_generated_variables.css'), renderCss(resolved));
-writeFileSync(join(BUILD_DIR, '_generated_variables.scss'), renderScss(resolved));
+export function build({ tokensDir = TOKENS_DIR, buildDir = BUILD_DIR } = {}) {
+  const sources = readTokenFiles(tokensDir);
+  const tokens = resolveTokens(sources);
 
-console.log(`Read ${resolved.length} tokens from ${files.length} files: ${files.join(', ')}`);
-console.log(`Wrote ${BUILD_DIR}/_generated_variables.css and ${BUILD_DIR}/_generated_variables.scss`);
+  mkdirSync(buildDir, { recursive: true });
+  writeFileSync(join(buildDir, CSS_FILE), renderCss(tokens));
+  writeFileSync(join(buildDir, SCSS_FILE), renderScss(tokens));
+
+  return { tokens, files: sources.map(({ file }) => file) };
+}
+
+const isMain = process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href;
+
+if (isMain) {
+  const { tokens, files } = build();
+  console.log(`Read ${tokens.length} tokens from ${files.length} files: ${files.join(', ')}`);
+  console.log(`Wrote ${BUILD_DIR}/${CSS_FILE} and ${BUILD_DIR}/${SCSS_FILE}`);
+}
