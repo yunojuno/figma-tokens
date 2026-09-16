@@ -22,12 +22,10 @@ jobs:
           ref: ${{ github.head_ref }}
       - name: Install
         run: npm install
-      - name: Transform the tokens
-        run: npm run token-transformer
       - name: Build styles
-        run: npm run style-dictionary
+        run: npm run build
       # Commit all changed files back to the repository
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v6
         with:
-          commit_message: "Action: Build style-dictionary from tokens"
+          commit_message: "Action: Build CSS variables from tokens"

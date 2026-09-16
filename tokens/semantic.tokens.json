@@ -1,0 +1,2634 @@
+{
+  "color": {
+    "action": {
+      "primary": {
+        "default": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.3019607961177826,
+              0.3176470696926117,
+              0.7882353067398071
+            ],
+            "alpha": 1,
+            "hex": "#4D51C9"
+          },
+          "$description": "The primary colour for interactive elements",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:7092:25",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:31b467a1252128e0b3e361be4e5babcd78f128a9/-1:-1",
+              "targetVariableName": "color/blueberry700",
+              "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+              "targetVariableSetName": "core colours"
+            }
+          }
+        },
+        "hover": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.4901960790157318,
+              0.4901960790157318,
+              0.95686274766922
+            ],
+            "alpha": 1,
+            "hex": "#7D7DF4"
+          },
+          "$description": "The colour used for the primary interactive elements when in a hover state",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:7092:26",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:c149d4b78ed7665f55077825b1df978def50f9f3/-1:-1",
+              "targetVariableName": "color/blueberry500",
+              "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+              "targetVariableSetName": "core colours"
+            }
+          }
+        }
+      },
+      "secondary": {
+        "default": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9254902005195618,
+              0.9254902005195618,
+              1
+            ],
+            "alpha": 1,
+            "hex": "#ECECFF"
+          },
+          "$description": "The secondary colour for interactive elements",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:7092:27",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:418cda5ed8afbde2e0c6de8bd07beb770fc7ab3c/-1:-1",
+              "targetVariableName": "color/blueberry100",
+              "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+              "targetVariableSetName": "core colours"
+            }
+          }
+        },
+        "hover": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9725490212440491,
+              0.9725490212440491,
+              1
+            ],
+            "alpha": 1,
+            "hex": "#F8F8FF"
+          },
+          "$description": "The colour used for the secondary interactive elements when in a hover state",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:7092:28",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:4e51eec7523642fa895283fbefd692086af12e23/-1:-1",
+              "targetVariableName": "color/blueberry50",
+              "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+              "targetVariableSetName": "core colours"
+            }
+          }
+        }
+      },
+      "neutral": {
+        "disabled": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.8745098114013672,
+              0.8745098114013672,
+              0.8745098114013672
+            ],
+            "alpha": 1,
+            "hex": "#DFDFDF"
+          },
+          "$description": "The colour used for disabled interactive elements",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:7092:29",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:316fde699ced9ce0cd621b1904b93548089089e6/-1:-1",
+              "targetVariableName": "color/grey200",
+              "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+              "targetVariableSetName": "core colours"
+            }
+          }
+        },
+        "default": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.6470588445663452,
+              0.6470588445663452,
+              0.6470588445663452
+            ],
+            "alpha": 1,
+            "hex": "#A5A5A5"
+          },
+          "$description": "A neutral colour for interactive elements, typically for an initial state",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:7092:30",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:7ae362bee1801a10fa2ba561393e0c8ed425a657/-1:-1",
+              "targetVariableName": "color/grey400",
+              "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+              "targetVariableSetName": "core colours"
+            }
+          }
+        },
+        "hover": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.772549033164978,
+              0.772549033164978,
+              0.772549033164978
+            ],
+            "alpha": 1,
+            "hex": "#C5C5C5"
+          },
+          "$description": "The colour used for neutral interactive elements when in a active/selected state",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:7092:31",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:98b0ce5bc527a47fe13c2a672673f2c561d460b0/-1:-1",
+              "targetVariableName": "color/grey300",
+              "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+              "targetVariableSetName": "core colours"
+            }
+          }
+        },
+        "active": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.35686275362968445,
+              0.6705882549285889,
+              0.9137254953384399
+            ],
+            "alpha": 1,
+            "hex": "#5BABE9"
+          },
+          "$description": "The colour used for neutral interactive elements when in an active/selected state",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:7092:32",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:15a67c23832e729dac7f5995b005a8677b1e1ee3/-1:-1",
+              "targetVariableName": "color/skyblue400",
+              "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+              "targetVariableSetName": "core colours"
+            }
+          }
+        }
+      },
+      "inverse": {
+        "default": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              1,
+              1,
+              1
+            ],
+            "alpha": 1,
+            "hex": "#FFFFFF"
+          },
+          "$description": "An inverse colour for interactive elements",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:7092:33",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:ffb9c2436e3567e2ee0023cbbb432514c3d40cee/-1:-1",
+              "targetVariableName": "color/white",
+              "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+              "targetVariableSetName": "core colours"
+            }
+          }
+        },
+        "hover": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9333333373069763,
+              0.9333333373069763,
+              0.9333333373069763
+            ],
+            "alpha": 1,
+            "hex": "#EEEEEE"
+          },
+          "$description": "The colour used for inverse interactive elements when in a hover state",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:7092:34",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:58ab1f4c86939861320f62584f8a778957831672/-1:-1",
+              "targetVariableName": "color/grey100",
+              "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+              "targetVariableSetName": "core colours"
+            }
+          }
+        },
+        "disabled": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9686274528503418,
+              0.9686274528503418,
+              0.9686274528503418
+            ],
+            "alpha": 1,
+            "hex": "#F7F7F7"
+          },
+          "$description": "The colour used for inverse interactive elements when in a disabled state",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:7092:35",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:491406308d7e359660cbe451969b3e9fb3164773/-1:-1",
+              "targetVariableName": "color/grey50",
+              "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+              "targetVariableSetName": "core colours"
+            }
+          }
+        }
+      }
+    },
+    "text": {
+      "primary": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.1568627506494522,
+            0.1568627506494522,
+            0.1568627506494522
+          ],
+          "alpha": 1,
+          "hex": "#282828"
+        },
+        "$description": "The primary colour for text elements",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:7092:36",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:7b6e93216de972f5d2f12ff52dbc476693cde8ca/-1:-1",
+            "targetVariableName": "color/grey1000",
+            "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+            "targetVariableSetName": "core colours"
+          }
+        }
+      },
+      "secondary": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.3803921639919281,
+            0.3803921639919281,
+            0.3803921639919281
+          ],
+          "alpha": 1,
+          "hex": "#616161"
+        },
+        "$description": "A secondary colour for text elements that require less visual emphasis",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:7092:37",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:75c77f1570d5b727a41c5bafd4d969ed5e51cce8/-1:-1",
+            "targetVariableName": "color/grey700",
+            "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+            "targetVariableSetName": "core colours"
+          }
+        }
+      },
+      "tertiary": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.4627451002597809,
+            0.4627451002597809,
+            0.4627451002597809
+          ],
+          "alpha": 1,
+          "hex": "#767676"
+        },
+        "$description": "A tertiary colour for text elements that require the least amount of visual emphasis",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:7092:38",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:9781296c1ee3b607fd3d38ada718b3ae7dd6aafa/-1:-1",
+            "targetVariableName": "color/grey600",
+            "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+            "targetVariableSetName": "core colours"
+          }
+        }
+      },
+      "accent": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.3019607961177826,
+            0.3176470696926117,
+            0.7882353067398071
+          ],
+          "alpha": 1,
+          "hex": "#4D51C9"
+        },
+        "$description": "The highlight colour for text elements. Use sparingly",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:7092:39",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:31b467a1252128e0b3e361be4e5babcd78f128a9/-1:-1",
+            "targetVariableName": "color/blueberry700",
+            "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+            "targetVariableSetName": "core colours"
+          }
+        }
+      },
+      "inverse": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            1,
+            1,
+            1
+          ],
+          "alpha": 1,
+          "hex": "#FFFFFF"
+        },
+        "$description": "The colour for text in inverse or high-contrast situations, ensuring readability against a contrasting background",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:7092:40",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:ffb9c2436e3567e2ee0023cbbb432514c3d40cee/-1:-1",
+            "targetVariableName": "color/white",
+            "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+            "targetVariableSetName": "core colours"
+          }
+        }
+      }
+    },
+    "border": {
+      "primary": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.9333333373069763,
+            0.9333333373069763,
+            0.9333333373069763
+          ],
+          "alpha": 1,
+          "hex": "#EEEEEE"
+        },
+        "$description": "Primary border colour",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:7092:41",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:58ab1f4c86939861320f62584f8a778957831672/-1:-1",
+            "targetVariableName": "color/grey100",
+            "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+            "targetVariableSetName": "core colours"
+          }
+        }
+      },
+      "neutral": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            1,
+            1,
+            1
+          ],
+          "alpha": 1,
+          "hex": "#FFFFFF"
+        },
+        "$description": "Neutral border colour that matches color.surface.layer.neutral",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:7092:42",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:ffb9c2436e3567e2ee0023cbbb432514c3d40cee/-1:-1",
+            "targetVariableName": "color/white",
+            "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+            "targetVariableSetName": "core colours"
+          }
+        }
+      },
+      "accent": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.3019607961177826,
+            0.3176470696926117,
+            0.7882353067398071
+          ],
+          "alpha": 1,
+          "hex": "#4D51C9"
+        },
+        "$description": "A border accent colour, typically used to highlight active elements",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:7092:43",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:31b467a1252128e0b3e361be4e5babcd78f128a9/-1:-1",
+            "targetVariableName": "color/blueberry700",
+            "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+            "targetVariableSetName": "core colours"
+          }
+        }
+      }
+    },
+    "feedback": {
+      "positive": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.45490196347236633,
+            0.843137264251709,
+            0.7450980544090271
+          ],
+          "alpha": 1,
+          "hex": "#74D7BE"
+        },
+        "$description": "The colour for elements associated with positive feedback",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:7092:44",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:49a7b47d7e58321697f61f68bf7315c20ad2cd44/-1:-1",
+            "targetVariableName": "color/mint300",
+            "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+            "targetVariableSetName": "core colours"
+          }
+        }
+      },
+      "warning": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.9098039269447327,
+            0.7529411911964417,
+            0.30588236451148987
+          ],
+          "alpha": 1,
+          "hex": "#E8C04E"
+        },
+        "$description": "The colour for elements associated with warnings",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:7092:45",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:c7d84e02814663b0d5a3a44b918dc8ca737fe45a/-1:-1",
+            "targetVariableName": "color/yellow300",
+            "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+            "targetVariableSetName": "core colours"
+          }
+        }
+      },
+      "negative": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.9725490212440491,
+            0.2705882489681244,
+            0.25882354378700256
+          ],
+          "alpha": 1,
+          "hex": "#F84542"
+        },
+        "$description": "The colour for elements conveying negative feedback",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:7092:46",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:79234b4ec63833287f64f470c0d30daf0272dec7/-1:-1",
+            "targetVariableName": "color/red500",
+            "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+            "targetVariableSetName": "core colours"
+          }
+        }
+      },
+      "info": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.5843137502670288,
+            0.7960784435272217,
+            0.9529411792755127
+          ],
+          "alpha": 1,
+          "hex": "#95CBF3"
+        },
+        "$description": "The colour for elements conveying informational feedback",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:7092:47",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:370633091e1f140f024d523cda4ebe13f91f4e4e/-1:-1",
+            "targetVariableName": "color/skyblue300",
+            "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+            "targetVariableSetName": "core colours"
+          }
+        }
+      },
+      "new": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.1568627506494522,
+            0.5607843399047852,
+            0.8705882430076599
+          ],
+          "alpha": 1,
+          "hex": "#288FDE"
+        },
+        "$description": "The colour for new features and notifications",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:7092:48",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:96ab6ebcce78d06c02e0a09c06750fd64f23888a/-1:-1",
+            "targetVariableName": "color/skyblue500",
+            "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+            "targetVariableSetName": "core colours"
+          }
+        }
+      },
+      "pending": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.772549033164978,
+            0.772549033164978,
+            0.772549033164978
+          ],
+          "alpha": 1,
+          "hex": "#C5C5C5"
+        },
+        "$description": "The colour for pending statuses or information",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:7092:49",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:98b0ce5bc527a47fe13c2a672673f2c561d460b0/-1:-1",
+            "targetVariableName": "color/grey300",
+            "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+            "targetVariableSetName": "core colours"
+          }
+        }
+      },
+      "background": {
+        "positive": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9215686321258545,
+              0.9843137264251709,
+              0.9686274528503418
+            ],
+            "alpha": 1,
+            "hex": "#EBFBF7"
+          },
+          "$description": "The background colour for elements associated with positive feedback",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:7092:50",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:55c920312a2b786a8fed0beda8337d8a47fc0e04/-1:-1",
+              "targetVariableName": "color/mint50",
+              "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+              "targetVariableSetName": "core colours"
+            }
+          }
+        },
+        "warning": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              1,
+              0.9764705896377563,
+              0.8549019694328308
+            ],
+            "alpha": 1,
+            "hex": "#FFF9DA"
+          },
+          "$description": "The background colour for elements associated with warnings",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:7092:51",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:cf88ade27427cda139f6736fd1bb5c9d95656901/-1:-1",
+              "targetVariableName": "color/yellow50",
+              "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+              "targetVariableSetName": "core colours"
+            }
+          }
+        },
+        "negative": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              1,
+              0.9137254953384399,
+              0.9137254953384399
+            ],
+            "alpha": 1,
+            "hex": "#FFE9E9"
+          },
+          "$description": "The background colour for elements conveying negative feedback",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:7092:52",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:e07650af5ad89c9d2ff70f25dbb7d6cf54b50d25/-1:-1",
+              "targetVariableName": "color/red100",
+              "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+              "targetVariableSetName": "core colours"
+            }
+          }
+        },
+        "info": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9450980424880981,
+              0.9803921580314636,
+              0.9882352948188782
+            ],
+            "alpha": 1,
+            "hex": "#F1FAFC"
+          },
+          "$description": "The background colour for elements conveying informational feedback",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:7092:53",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:ef19cf5cdba3a60e0e209393c439ff44d2a60dc5/-1:-1",
+              "targetVariableName": "color/skyblue50",
+              "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+              "targetVariableSetName": "core colours"
+            }
+          }
+        },
+        "pending": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9686274528503418,
+              0.9686274528503418,
+              0.9764705896377563
+            ],
+            "alpha": 1,
+            "hex": "#F7F7F9"
+          },
+          "$description": "The background colour for pending statuses or information",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:7092:54",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:b3c429497eb446ed3a7f1a4deabcaec4985bb5d6/-1:-1",
+              "targetVariableName": "color/moonlight50",
+              "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+              "targetVariableSetName": "core colours"
+            }
+          }
+        }
+      },
+      "text": {
+        "negative": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.6784313917160034,
+              0.1882352977991104,
+              0.18039216101169586
+            ],
+            "alpha": 1,
+            "hex": "#AD302E"
+          },
+          "$description": "The text color for elements conveying negative feedback",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:7092:55",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:d2d7da2c7c890330df6741c862e594462ce56b12/-1:-1",
+              "targetVariableName": "color/red700",
+              "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+              "targetVariableSetName": "core colours"
+            }
+          }
+        },
+        "info": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.10588235408067703,
+              0.38823530077934265,
+              0.6078431606292725
+            ],
+            "alpha": 1,
+            "hex": "#1B639B"
+          },
+          "$description": "The text colour for elements conveying informational feedback",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:7092:56",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:834117f9a87a5a818f88daffeb314df6b1dd8505/-1:-1",
+              "targetVariableName": "color/skyblue700",
+              "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+              "targetVariableSetName": "core colours"
+            }
+          }
+        },
+        "positive": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.062745101749897,
+              0.42352941632270813,
+              0.3333333432674408
+            ],
+            "alpha": 1,
+            "hex": "#106C55"
+          },
+          "$description": "The text color for elements conveying positive feedback",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:7092:57",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:18c58ba3798ae1fb43854d5d2b67108093ccba70/-1:-1",
+              "targetVariableName": "color/mint700",
+              "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+              "targetVariableSetName": "core colours"
+            }
+          }
+        },
+        "warning": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.5764706134796143,
+              0.43921568989753723,
+              0.062745101749897
+            ],
+            "alpha": 1,
+            "hex": "#937010"
+          },
+          "$extensions": {
+            "com.figma.variableId": "VariableID:7092:58",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:f1360fad828bd1a86d4fe79f01daf1536fd2f5a4/-1:-1",
+              "targetVariableName": "color/yellow600",
+              "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+              "targetVariableSetName": "core colours"
+            }
+          }
+        },
+        "pending": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.37254902720451355,
+              0.37254902720451355,
+              0.4627451002597809
+            ],
+            "alpha": 1,
+            "hex": "#5F5F76"
+          },
+          "$extensions": {
+            "com.figma.variableId": "VariableID:7092:59",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:ccf0ed5da074846888bb34dc85b49189e0309908/-1:-1",
+              "targetVariableName": "color/moonlight700",
+              "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+              "targetVariableSetName": "core colours"
+            }
+          }
+        }
+      }
+    },
+    "availability": {
+      "active": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.1921568661928177,
+            0.7215686440467834,
+            0.5960784554481506
+          ],
+          "alpha": 1,
+          "hex": "#31B898"
+        },
+        "$description": "Colour for elements that communicate the state AvailabilityState.ACTIVE",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:7092:60",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:90d785b61f14a9fd33a59231d73940be98289e34/-1:-1",
+            "targetVariableName": "color/mint400",
+            "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+            "targetVariableSetName": "core colours"
+          }
+        }
+      },
+      "passive": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.5843137502670288,
+            0.7960784435272217,
+            0.9529411792755127
+          ],
+          "alpha": 1,
+          "hex": "#95CBF3"
+        },
+        "$description": "Colour for elements that communicate the state AvailabilityState.PASSIVE",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:7092:61",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:370633091e1f140f024d523cda4ebe13f91f4e4e/-1:-1",
+            "targetVariableName": "color/skyblue300",
+            "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+            "targetVariableSetName": "core colours"
+          }
+        }
+      },
+      "inactive": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.9803921580314636,
+            0.7137255072593689,
+            0.5176470875740051
+          ],
+          "alpha": 1,
+          "hex": "#FAB684"
+        },
+        "$description": "Colour for elements that communicate the state AvailabilityState.INACTIVE",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:7092:62",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:262ce679be2a3d36db34e4461a9433c4ba3691a3/-1:-1",
+            "targetVariableName": "color/terracotta300",
+            "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+            "targetVariableSetName": "core colours"
+          }
+        }
+      },
+      "background": {
+        "active": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.8196078538894653,
+              0.9647058844566345,
+              0.9215686321258545
+            ],
+            "alpha": 1,
+            "hex": "#D1F6EB"
+          },
+          "$description": "Colour for background elements that communicate the state AvailabilityState.ACTIVE",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:7092:63",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:54bd6051d32a31311cd951febca86d7ae9398697/-1:-1",
+              "targetVariableName": "color/mint100",
+              "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+              "targetVariableSetName": "core colours"
+            }
+          }
+        },
+        "passive": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.8549019694328308,
+              0.9490196108818054,
+              0.9725490212440491
+            ],
+            "alpha": 1,
+            "hex": "#DAF2F8"
+          },
+          "$description": "Colour for background elements that communicate the state AvailabilityState.PASSIVE",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:7092:64",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:a10e1f1221b57b8668459237403cc1f46e2daa87/-1:-1",
+              "targetVariableName": "color/skyblue100",
+              "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+              "targetVariableSetName": "core colours"
+            }
+          }
+        },
+        "inactive": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              1,
+              0.9176470637321472,
+              0.8823529481887817
+            ],
+            "alpha": 1,
+            "hex": "#FFEAE1"
+          },
+          "$extensions": {
+            "com.figma.variableId": "VariableID:7092:65",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:048c2878d3ecd73532ae6807b5d1980b494b4d98/-1:-1",
+              "targetVariableName": "color/terracotta100",
+              "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+              "targetVariableSetName": "core colours"
+            }
+          }
+        }
+      },
+      "text": {
+        "active": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.062745101749897,
+              0.42352941632270813,
+              0.3333333432674408
+            ],
+            "alpha": 1,
+            "hex": "#106C55"
+          },
+          "$extensions": {
+            "com.figma.variableId": "VariableID:7092:66",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:18c58ba3798ae1fb43854d5d2b67108093ccba70/-1:-1",
+              "targetVariableName": "color/mint700",
+              "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+              "targetVariableSetName": "core colours"
+            }
+          }
+        },
+        "passive": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.10588235408067703,
+              0.38823530077934265,
+              0.6078431606292725
+            ],
+            "alpha": 1,
+            "hex": "#1B639B"
+          },
+          "$description": "Colour for text that communicates the state AvailabilityState.PASSIVE",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:7092:67",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:834117f9a87a5a818f88daffeb314df6b1dd8505/-1:-1",
+              "targetVariableName": "color/skyblue700",
+              "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+              "targetVariableSetName": "core colours"
+            }
+          }
+        },
+        "inactive": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.7137255072593689,
+              0.35686275362968445,
+              0.20000000298023224
+            ],
+            "alpha": 1,
+            "hex": "#B65B33"
+          },
+          "$extensions": {
+            "com.figma.variableId": "VariableID:7092:68",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:62188dcf3da4f344587012d077237c15512d73ff/-1:-1",
+              "targetVariableName": "color/terracotta600",
+              "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+              "targetVariableSetName": "core colours"
+            }
+          }
+        }
+      }
+    },
+    "compliance": {
+      "ir35-inside": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.9803921580314636,
+            0.7137255072593689,
+            0.5176470875740051
+          ],
+          "alpha": 1,
+          "hex": "#FAB684"
+        },
+        "$description": "The colour for elements that communicate an Inside IR35 status",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:7092:69",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:262ce679be2a3d36db34e4461a9433c4ba3691a3/-1:-1",
+            "targetVariableName": "color/terracotta300",
+            "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+            "targetVariableSetName": "core colours"
+          }
+        }
+      },
+      "ir35-outside": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.7490196228027344,
+            0.7490196228027344,
+            0.9960784316062927
+          ],
+          "alpha": 1,
+          "hex": "#BFBFFE"
+        },
+        "$description": "The colour for elements that communicate an Outside IR35 status",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:7092:70",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:35f9edf181b83b4dc069c75a9f869a6a6c02637e/-1:-1",
+            "targetVariableName": "color/blueberry300",
+            "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+            "targetVariableSetName": "core colours"
+          }
+        }
+      },
+      "employee_w2": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.5843137502670288,
+            0.7960784435272217,
+            0.9529411792755127
+          ],
+          "alpha": 1,
+          "hex": "#95CBF3"
+        },
+        "$description": "The colour for elements that communicate an Employee (W-2) status",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:7092:71",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:370633091e1f140f024d523cda4ebe13f91f4e4e/-1:-1",
+            "targetVariableName": "color/skyblue300",
+            "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+            "targetVariableSetName": "core colours"
+          }
+        }
+      },
+      "ic": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.7686274647712708,
+            0.7686274647712708,
+            0.8156862854957581
+          ],
+          "alpha": 1,
+          "hex": "#C4C4D0"
+        },
+        "$description": "The colour for elements that communicate an IC status",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:7092:72",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:20a9aae31d51fba428b2ffe139635c6bcc20a5b9/-1:-1",
+            "targetVariableName": "color/moonlight300",
+            "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+            "targetVariableSetName": "core colours"
+          }
+        }
+      },
+      "background": {
+        "ir35-inside": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              1,
+              0.9176470637321472,
+              0.8823529481887817
+            ],
+            "alpha": 1,
+            "hex": "#FFEAE1"
+          },
+          "$description": "The colour for background elements that communicate an Inside IR35 status",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:7092:73",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:048c2878d3ecd73532ae6807b5d1980b494b4d98/-1:-1",
+              "targetVariableName": "color/terracotta100",
+              "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+              "targetVariableSetName": "core colours"
+            }
+          }
+        },
+        "ir35-outside": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9254902005195618,
+              0.9254902005195618,
+              1
+            ],
+            "alpha": 1,
+            "hex": "#ECECFF"
+          },
+          "$description": "The colour for background elements that communicate an Outside IR35 status",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:7092:74",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:418cda5ed8afbde2e0c6de8bd07beb770fc7ab3c/-1:-1",
+              "targetVariableName": "color/blueberry100",
+              "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+              "targetVariableSetName": "core colours"
+            }
+          }
+        },
+        "employee_w2": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.8549019694328308,
+              0.9490196108818054,
+              0.9725490212440491
+            ],
+            "alpha": 1,
+            "hex": "#DAF2F8"
+          },
+          "$description": "The colour for elements that communicate an Employee (W-2) status",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:7092:75",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:a10e1f1221b57b8668459237403cc1f46e2daa87/-1:-1",
+              "targetVariableName": "color/skyblue100",
+              "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+              "targetVariableSetName": "core colours"
+            }
+          }
+        },
+        "ic": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9333333373069763,
+              0.9333333373069763,
+              0.9450980424880981
+            ],
+            "alpha": 1,
+            "hex": "#EEEEF1"
+          },
+          "$description": "The colour for elements that communicate an IC status",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:7092:76",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:cf62dd81dc77b2c9b08a1bbb08acf718eb3ae53e/-1:-1",
+              "targetVariableName": "color/moonlight100",
+              "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+              "targetVariableSetName": "core colours"
+            }
+          }
+        }
+      }
+    },
+    "box": {
+      "primary": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.9333333373069763,
+            0.9333333373069763,
+            0.9333333373069763
+          ],
+          "alpha": 1,
+          "hex": "#EEEEEE"
+        },
+        "$description": "Specifies a primary colour for containers",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:7092:77",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:58ab1f4c86939861320f62584f8a778957831672/-1:-1",
+            "targetVariableName": "color/grey100",
+            "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+            "targetVariableSetName": "core colours"
+          }
+        }
+      },
+      "secondary": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.9686274528503418,
+            0.9686274528503418,
+            0.9686274528503418
+          ],
+          "alpha": 1,
+          "hex": "#F7F7F7"
+        },
+        "$description": "Specifies a secondary colour for containers",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:7092:78",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:491406308d7e359660cbe451969b3e9fb3164773/-1:-1",
+            "targetVariableName": "color/grey50",
+            "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+            "targetVariableSetName": "core colours"
+          }
+        }
+      },
+      "neutral": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            1,
+            1,
+            1
+          ],
+          "alpha": 1,
+          "hex": "#FFFFFF"
+        },
+        "$description": "Specifies a neutral colour for containers",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:7092:79",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:ffb9c2436e3567e2ee0023cbbb432514c3d40cee/-1:-1",
+            "targetVariableName": "color/white",
+            "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+            "targetVariableSetName": "core colours"
+          }
+        }
+      },
+      "inverse": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.1568627506494522,
+            0.1568627506494522,
+            0.1568627506494522
+          ],
+          "alpha": 1,
+          "hex": "#282828"
+        },
+        "$description": "Specifies an inverse colour for containers",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:7092:80",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:7b6e93216de972f5d2f12ff52dbc476693cde8ca/-1:-1",
+            "targetVariableName": "color/grey1000",
+            "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+            "targetVariableSetName": "core colours"
+          }
+        }
+      }
+    },
+    "decor": {
+      "background": {
+        "blueberry": {
+          "50": {
+            "$type": "color",
+            "$value": {
+              "colorSpace": "srgb",
+              "components": [
+                0.9725490212440491,
+                0.9725490212440491,
+                1
+              ],
+              "alpha": 1,
+              "hex": "#F8F8FF"
+            },
+            "$description": "Decor tokens do not convey a meaning, they are purely decorative. Use only when a more appropriate token does not exist",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:7092:81",
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.aliasData": {
+                "targetVariableId": "VariableID:4e51eec7523642fa895283fbefd692086af12e23/-1:-1",
+                "targetVariableName": "color/blueberry50",
+                "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+                "targetVariableSetName": "core colours"
+              }
+            }
+          },
+          "100": {
+            "$type": "color",
+            "$value": {
+              "colorSpace": "srgb",
+              "components": [
+                0.9254902005195618,
+                0.9254902005195618,
+                1
+              ],
+              "alpha": 1,
+              "hex": "#ECECFF"
+            },
+            "$description": "Decor tokens do not convey a meaning, they are purely decorative. Use only when a more appropriate token does not exist",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:7092:82",
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.aliasData": {
+                "targetVariableId": "VariableID:418cda5ed8afbde2e0c6de8bd07beb770fc7ab3c/-1:-1",
+                "targetVariableName": "color/blueberry100",
+                "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+                "targetVariableSetName": "core colours"
+              }
+            }
+          },
+          "300": {
+            "$type": "color",
+            "$value": {
+              "colorSpace": "srgb",
+              "components": [
+                0.7490196228027344,
+                0.7490196228027344,
+                0.9960784316062927
+              ],
+              "alpha": 1,
+              "hex": "#BFBFFE"
+            },
+            "$description": "Decor tokens do not convey a meaning, they are purely decorative. Use only when a more appropriate token does not exist",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:7092:83",
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.aliasData": {
+                "targetVariableId": "VariableID:35f9edf181b83b4dc069c75a9f869a6a6c02637e/-1:-1",
+                "targetVariableName": "color/blueberry300",
+                "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+                "targetVariableSetName": "core colours"
+              }
+            }
+          },
+          "600": {
+            "$type": "color",
+            "$value": {
+              "colorSpace": "srgb",
+              "components": [
+                0.3921568691730499,
+                0.4000000059604645,
+                0.8941176533699036
+              ],
+              "alpha": 1,
+              "hex": "#6466E4"
+            },
+            "$description": "Decor tokens do not convey a meaning, they are purely decorative. Use only when a more appropriate token does not exist",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:7092:84",
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.aliasData": {
+                "targetVariableId": "VariableID:6e8220aafc5112b6f6022bb4947c7ba0dfa04c9b/-1:-1",
+                "targetVariableName": "color/blueberry600",
+                "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+                "targetVariableSetName": "core colours"
+              }
+            }
+          },
+          "700": {
+            "$type": "color",
+            "$value": {
+              "colorSpace": "srgb",
+              "components": [
+                0.3019607961177826,
+                0.3176470696926117,
+                0.7882353067398071
+              ],
+              "alpha": 1,
+              "hex": "#4D51C9"
+            },
+            "$description": "Decor tokens do not convey a meaning, they are purely decorative. Use only when a more appropriate token does not exist",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:7092:85",
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.aliasData": {
+                "targetVariableId": "VariableID:31b467a1252128e0b3e361be4e5babcd78f128a9/-1:-1",
+                "targetVariableName": "color/blueberry700",
+                "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+                "targetVariableSetName": "core colours"
+              }
+            }
+          },
+          "800": {
+            "$type": "color",
+            "$value": {
+              "colorSpace": "srgb",
+              "components": [
+                0.22745098173618317,
+                0.239215686917305,
+                0.6666666865348816
+              ],
+              "alpha": 1,
+              "hex": "#3A3DAA"
+            },
+            "$description": "Decor tokens do not convey a meaning, they are purely decorative. Use only when a more appropriate token does not exist",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:7092:86",
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.aliasData": {
+                "targetVariableId": "VariableID:8c03da8e3329f9533db605875d931e88f0aa4622/-1:-1",
+                "targetVariableName": "color/blueberry800",
+                "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+                "targetVariableSetName": "core colours"
+              }
+            }
+          },
+          "900": {
+            "$type": "color",
+            "$value": {
+              "colorSpace": "srgb",
+              "components": [
+                0.1764705926179886,
+                0.18431372940540314,
+                0.48627451062202454
+              ],
+              "alpha": 1,
+              "hex": "#2D2F7C"
+            },
+            "$description": "Decor tokens do not convey a meaning, they are purely decorative. Use only when a more appropriate token does not exist",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:7092:87",
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.aliasData": {
+                "targetVariableId": "VariableID:31f75f9bd113059e712324085f70e2465a3384c1/-1:-1",
+                "targetVariableName": "color/blueberry900",
+                "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+                "targetVariableSetName": "core colours"
+              }
+            }
+          }
+        },
+        "grey": {
+          "50": {
+            "$type": "color",
+            "$value": {
+              "colorSpace": "srgb",
+              "components": [
+                0.9686274528503418,
+                0.9686274528503418,
+                0.9686274528503418
+              ],
+              "alpha": 1,
+              "hex": "#F7F7F7"
+            },
+            "$description": "Decor tokens do not convey a meaning, they are purely decorative. Use only when a more appropriate token does not exist",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:7092:88",
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.aliasData": {
+                "targetVariableId": "VariableID:491406308d7e359660cbe451969b3e9fb3164773/-1:-1",
+                "targetVariableName": "color/grey50",
+                "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+                "targetVariableSetName": "core colours"
+              }
+            }
+          },
+          "100": {
+            "$type": "color",
+            "$value": {
+              "colorSpace": "srgb",
+              "components": [
+                0.9333333373069763,
+                0.9333333373069763,
+                0.9333333373069763
+              ],
+              "alpha": 1,
+              "hex": "#EEEEEE"
+            },
+            "$description": "Decor tokens do not convey a meaning, they are purely decorative. Use only when a more appropriate token does not exist",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:7092:89",
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.aliasData": {
+                "targetVariableId": "VariableID:58ab1f4c86939861320f62584f8a778957831672/-1:-1",
+                "targetVariableName": "color/grey100",
+                "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+                "targetVariableSetName": "core colours"
+              }
+            }
+          },
+          "900": {
+            "$type": "color",
+            "$value": {
+              "colorSpace": "srgb",
+              "components": [
+                0.22745098173618317,
+                0.22745098173618317,
+                0.22745098173618317
+              ],
+              "alpha": 1,
+              "hex": "#3A3A3A"
+            },
+            "$description": "Decor tokens do not convey a meaning, they are purely decorative. Use only when a more appropriate token does not exist",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:7092:90",
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.aliasData": {
+                "targetVariableId": "VariableID:61bfb002a369ace999d76197156b71a054fb57cc/-1:-1",
+                "targetVariableName": "color/grey900",
+                "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+                "targetVariableSetName": "core colours"
+              }
+            }
+          }
+        },
+        "terracotta": {
+          "50": {
+            "$type": "color",
+            "$value": {
+              "colorSpace": "srgb",
+              "components": [
+                1,
+                0.9647058844566345,
+                0.9529411792755127
+              ],
+              "alpha": 1,
+              "hex": "#FFF6F3"
+            },
+            "$description": "Decor tokens do not convey a meaning, they are purely decorative. Use only when a more appropriate token does not exist",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:7092:91",
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.aliasData": {
+                "targetVariableId": "VariableID:62100708800a0125f293c23ceadf14e47a4fe425/-1:-1",
+                "targetVariableName": "color/terracotta50",
+                "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+                "targetVariableSetName": "core colours"
+              }
+            }
+          },
+          "100": {
+            "$type": "color",
+            "$value": {
+              "colorSpace": "srgb",
+              "components": [
+                1,
+                0.9176470637321472,
+                0.8823529481887817
+              ],
+              "alpha": 1,
+              "hex": "#FFEAE1"
+            },
+            "$description": "Decor tokens do not convey a meaning, they are purely decorative. Use only when a more appropriate token does not exist",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:7092:92",
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.aliasData": {
+                "targetVariableId": "VariableID:048c2878d3ecd73532ae6807b5d1980b494b4d98/-1:-1",
+                "targetVariableName": "color/terracotta100",
+                "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+                "targetVariableSetName": "core colours"
+              }
+            }
+          },
+          "200": {
+            "$type": "color",
+            "$value": {
+              "colorSpace": "srgb",
+              "components": [
+                0.9960784316062927,
+                0.843137264251709,
+                0.7686274647712708
+              ],
+              "alpha": 1,
+              "hex": "#FED7C4"
+            },
+            "$description": "Decor tokens do not convey a meaning, they are purely decorative. Use only when a more appropriate token does not exist",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:7092:93",
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.aliasData": {
+                "targetVariableId": "VariableID:cf0b60a46cb37d591ef9d883fa167616a0a3ff17/-1:-1",
+                "targetVariableName": "color/terracotta200",
+                "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+                "targetVariableSetName": "core colours"
+              }
+            }
+          },
+          "400": {
+            "$type": "color",
+            "$value": {
+              "colorSpace": "srgb",
+              "components": [
+                0.9137254953384399,
+                0.5529412031173706,
+                0.33725491166114807
+              ],
+              "alpha": 1,
+              "hex": "#E98D56"
+            },
+            "$description": "Decor tokens do not convey a meaning, they are purely decorative. Use only when a more appropriate token does not exist",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:7092:94",
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.aliasData": {
+                "targetVariableId": "VariableID:7f73fb0d22d85f550aff005c34705e2700271259/-1:-1",
+                "targetVariableName": "color/terracotta400",
+                "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+                "targetVariableSetName": "core colours"
+              }
+            }
+          }
+        },
+        "skyblue": {
+          "50": {
+            "$type": "color",
+            "$value": {
+              "colorSpace": "srgb",
+              "components": [
+                0.9450980424880981,
+                0.9803921580314636,
+                0.9882352948188782
+              ],
+              "alpha": 1,
+              "hex": "#F1FAFC"
+            },
+            "$description": "Decor tokens do not convey a meaning, they are purely decorative. Use only when a more appropriate token does not exist",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:7092:95",
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.aliasData": {
+                "targetVariableId": "VariableID:ef19cf5cdba3a60e0e209393c439ff44d2a60dc5/-1:-1",
+                "targetVariableName": "color/skyblue50",
+                "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+                "targetVariableSetName": "core colours"
+              }
+            }
+          },
+          "100": {
+            "$type": "color",
+            "$value": {
+              "colorSpace": "srgb",
+              "components": [
+                0.8549019694328308,
+                0.9490196108818054,
+                0.9725490212440491
+              ],
+              "alpha": 1,
+              "hex": "#DAF2F8"
+            },
+            "$description": "Decor tokens do not convey a meaning, they are purely decorative. Use only when a more appropriate token does not exist",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:7092:96",
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.aliasData": {
+                "targetVariableId": "VariableID:a10e1f1221b57b8668459237403cc1f46e2daa87/-1:-1",
+                "targetVariableName": "color/skyblue100",
+                "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+                "targetVariableSetName": "core colours"
+              }
+            }
+          },
+          "200": {
+            "$type": "color",
+            "$value": {
+              "colorSpace": "srgb",
+              "components": [
+                0.7450980544090271,
+                0.8941176533699036,
+                0.9725490212440491
+              ],
+              "alpha": 1,
+              "hex": "#BEE4F8"
+            },
+            "$description": "Decor tokens do not convey a meaning, they are purely decorative. Use only when a more appropriate token does not exist",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:7092:97",
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.aliasData": {
+                "targetVariableId": "VariableID:b4da2e383f5e46509f5d9343dcd42ee4a93c8556/-1:-1",
+                "targetVariableName": "color/skyblue200",
+                "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+                "targetVariableSetName": "core colours"
+              }
+            }
+          }
+        },
+        "mint": {
+          "50": {
+            "$type": "color",
+            "$value": {
+              "colorSpace": "srgb",
+              "components": [
+                0.9215686321258545,
+                0.9843137264251709,
+                0.9686274528503418
+              ],
+              "alpha": 1,
+              "hex": "#EBFBF7"
+            },
+            "$description": "Decor tokens do not convey a meaning, they are purely decorative. Use only when a more appropriate token does not exist",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:7092:98",
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.aliasData": {
+                "targetVariableId": "VariableID:55c920312a2b786a8fed0beda8337d8a47fc0e04/-1:-1",
+                "targetVariableName": "color/mint50",
+                "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+                "targetVariableSetName": "core colours"
+              }
+            }
+          },
+          "100": {
+            "$type": "color",
+            "$value": {
+              "colorSpace": "srgb",
+              "components": [
+                0.8196078538894653,
+                0.9647058844566345,
+                0.9215686321258545
+              ],
+              "alpha": 1,
+              "hex": "#D1F6EB"
+            },
+            "$extensions": {
+              "com.figma.variableId": "VariableID:7092:99",
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.aliasData": {
+                "targetVariableId": "VariableID:54bd6051d32a31311cd951febca86d7ae9398697/-1:-1",
+                "targetVariableName": "color/mint100",
+                "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+                "targetVariableSetName": "core colours"
+              }
+            }
+          }
+        },
+        "moonlight": {
+          "50": {
+            "$type": "color",
+            "$value": {
+              "colorSpace": "srgb",
+              "components": [
+                0.9686274528503418,
+                0.9686274528503418,
+                0.9764705896377563
+              ],
+              "alpha": 1,
+              "hex": "#F7F7F9"
+            },
+            "$extensions": {
+              "com.figma.variableId": "VariableID:7092:122",
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.aliasData": {
+                "targetVariableId": "VariableID:b3c429497eb446ed3a7f1a4deabcaec4985bb5d6/-1:-1",
+                "targetVariableName": "color/moonlight50",
+                "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+                "targetVariableSetName": "core colours"
+              }
+            }
+          },
+          "100": {
+            "$type": "color",
+            "$value": {
+              "colorSpace": "srgb",
+              "components": [
+                0.9333333373069763,
+                0.9333333373069763,
+                0.9450980424880981
+              ],
+              "alpha": 1,
+              "hex": "#EEEEF1"
+            },
+            "$extensions": {
+              "com.figma.variableId": "VariableID:7092:123",
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.aliasData": {
+                "targetVariableId": "VariableID:cf62dd81dc77b2c9b08a1bbb08acf718eb3ae53e/-1:-1",
+                "targetVariableName": "color/moonlight100",
+                "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+                "targetVariableSetName": "core colours"
+              }
+            }
+          }
+        }
+      }
+    },
+    "achievement": {
+      "primary": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.9098039269447327,
+            0.7529411911964417,
+            0.30588236451148987
+          ],
+          "alpha": 1,
+          "hex": "#E8C04E"
+        },
+        "$description": "Primary colour for achievements and prizes",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:7092:100",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:c7d84e02814663b0d5a3a44b918dc8ca737fe45a/-1:-1",
+            "targetVariableName": "color/yellow300",
+            "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+            "targetVariableSetName": "core colours"
+          }
+        }
+      },
+      "secondary": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.772549033164978,
+            0.772549033164978,
+            0.772549033164978
+          ],
+          "alpha": 1,
+          "hex": "#C5C5C5"
+        },
+        "$description": "Secondary colour for achievements and prizes",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:7092:101",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:98b0ce5bc527a47fe13c2a672673f2c561d460b0/-1:-1",
+            "targetVariableName": "color/grey300",
+            "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+            "targetVariableSetName": "core colours"
+          }
+        }
+      },
+      "tertiary": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.9333333373069763,
+            0.9333333373069763,
+            0.9333333373069763
+          ],
+          "alpha": 1,
+          "hex": "#EEEEEE"
+        },
+        "$extensions": {
+          "com.figma.variableId": "VariableID:7092:102",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:58ab1f4c86939861320f62584f8a778957831672/-1:-1",
+            "targetVariableName": "color/grey100",
+            "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+            "targetVariableSetName": "core colours"
+          }
+        }
+      }
+    },
+    "input": {
+      "border": {
+        "default": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.8745098114013672,
+              0.8745098114013672,
+              0.8745098114013672
+            ],
+            "alpha": 1,
+            "hex": "#DFDFDF"
+          },
+          "$description": "The default border colour for elements that receive user input",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:7092:103",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:316fde699ced9ce0cd621b1904b93548089089e6/-1:-1",
+              "targetVariableName": "color/grey200",
+              "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+              "targetVariableSetName": "core colours"
+            }
+          }
+        },
+        "active": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.5843137502670288,
+              0.7960784435272217,
+              0.9529411792755127
+            ],
+            "alpha": 1,
+            "hex": "#95CBF3"
+          },
+          "$description": "The border colour for elements that receive user input when in active state",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:7092:104",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:370633091e1f140f024d523cda4ebe13f91f4e4e/-1:-1",
+              "targetVariableName": "color/skyblue300",
+              "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+              "targetVariableSetName": "core colours"
+            }
+          }
+        },
+        "disabled": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9333333373069763,
+              0.9333333373069763,
+              0.9333333373069763
+            ],
+            "alpha": 1,
+            "hex": "#EEEEEE"
+          },
+          "$description": "The border colour for elements that receive user input when in disabled state",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:7092:105",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:58ab1f4c86939861320f62584f8a778957831672/-1:-1",
+              "targetVariableName": "color/grey100",
+              "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+              "targetVariableSetName": "core colours"
+            }
+          }
+        },
+        "hover": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.772549033164978,
+              0.772549033164978,
+              0.772549033164978
+            ],
+            "alpha": 1,
+            "hex": "#C5C5C5"
+          },
+          "$description": "The border colour for elements that receive user input when in hover state",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:7092:106",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:98b0ce5bc527a47fe13c2a672673f2c561d460b0/-1:-1",
+              "targetVariableName": "color/grey300",
+              "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+              "targetVariableSetName": "core colours"
+            }
+          }
+        }
+      },
+      "background": {
+        "default": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              1,
+              1,
+              1
+            ],
+            "alpha": 1,
+            "hex": "#FFFFFF"
+          },
+          "$description": "The default background colour for elements that receive user input",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:7092:107",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:ffb9c2436e3567e2ee0023cbbb432514c3d40cee/-1:-1",
+              "targetVariableName": "color/white",
+              "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+              "targetVariableSetName": "core colours"
+            }
+          }
+        },
+        "disabled": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9333333373069763,
+              0.9333333373069763,
+              0.9333333373069763
+            ],
+            "alpha": 1,
+            "hex": "#EEEEEE"
+          },
+          "$description": "The background colour for elements that receive user input when in disabled state",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:7092:108",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:58ab1f4c86939861320f62584f8a778957831672/-1:-1",
+              "targetVariableName": "color/grey100",
+              "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+              "targetVariableSetName": "core colours"
+            }
+          }
+        },
+        "hover": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9333333373069763,
+              0.9333333373069763,
+              0.9333333373069763
+            ],
+            "alpha": 1,
+            "hex": "#EEEEEE"
+          },
+          "$description": "The background colour for elements that receive user input when in hover state",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:7092:109",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:58ab1f4c86939861320f62584f8a778957831672/-1:-1",
+              "targetVariableName": "color/grey100",
+              "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+              "targetVariableSetName": "core colours"
+            }
+          }
+        },
+        "checked": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.3019607961177826,
+              0.3176470696926117,
+              0.7882353067398071
+            ],
+            "alpha": 1,
+            "hex": "#4D51C9"
+          },
+          "$description": "The background colour for elements that receive user input when in checked state",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:7092:110",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:31b467a1252128e0b3e361be4e5babcd78f128a9/-1:-1",
+              "targetVariableName": "color/blueberry700",
+              "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+              "targetVariableSetName": "core colours"
+            }
+          }
+        },
+        "active": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9450980424880981,
+              0.9803921580314636,
+              0.9882352948188782
+            ],
+            "alpha": 1,
+            "hex": "#F1FAFC"
+          },
+          "$description": "The background colour for elements that receive user input when in active state",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:7092:111",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:ef19cf5cdba3a60e0e209393c439ff44d2a60dc5/-1:-1",
+              "targetVariableName": "color/skyblue50",
+              "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+              "targetVariableSetName": "core colours"
+            }
+          }
+        }
+      }
+    },
+    "priority": {
+      "high": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.9725490212440491,
+            0.2705882489681244,
+            0.25882354378700256
+          ],
+          "alpha": 1,
+          "hex": "#F84542"
+        },
+        "$description": "Colour to convey high priority information",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:7092:112",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:79234b4ec63833287f64f470c0d30daf0272dec7/-1:-1",
+            "targetVariableName": "color/red500",
+            "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+            "targetVariableSetName": "core colours"
+          }
+        }
+      },
+      "medium": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.9098039269447327,
+            0.7529411911964417,
+            0.30588236451148987
+          ],
+          "alpha": 1,
+          "hex": "#E8C04E"
+        },
+        "$description": "Colour to convey medium priority information",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:7092:113",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:c7d84e02814663b0d5a3a44b918dc8ca737fe45a/-1:-1",
+            "targetVariableName": "color/yellow300",
+            "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+            "targetVariableSetName": "core colours"
+          }
+        }
+      },
+      "low": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.45490196347236633,
+            0.843137264251709,
+            0.7450980544090271
+          ],
+          "alpha": 1,
+          "hex": "#74D7BE"
+        },
+        "$description": "Colour to convey low priority information",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:7092:114",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:49a7b47d7e58321697f61f68bf7315c20ad2cd44/-1:-1",
+            "targetVariableName": "color/mint300",
+            "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+            "targetVariableSetName": "core colours"
+          }
+        }
+      }
+    },
+    "candidate": {
+      "available": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.1921568661928177,
+            0.7215686440467834,
+            0.5960784554481506
+          ],
+          "alpha": 1,
+          "hex": "#31B898"
+        },
+        "$description": "Colour to represent 'available' candidates",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:7092:115",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:90d785b61f14a9fd33a59231d73940be98289e34/-1:-1",
+            "targetVariableName": "color/mint400",
+            "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+            "targetVariableSetName": "core colours"
+          }
+        }
+      },
+      "requested": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.9647058844566345,
+            0.8666666746139526,
+            0.5568627715110779
+          ],
+          "alpha": 1,
+          "hex": "#F6DD8E"
+        },
+        "$description": "Colour to represent 'requested/pending' candidates",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:7092:116",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:570517881ca876facdb5dd70cf4a85f78f4e9fdc/-1:-1",
+            "targetVariableName": "color/yellow200",
+            "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+            "targetVariableSetName": "core colours"
+          }
+        }
+      },
+      "unavailable": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.9725490212440491,
+            0.2705882489681244,
+            0.25882354378700256
+          ],
+          "alpha": 1,
+          "hex": "#F84542"
+        },
+        "$description": "Colour to represent candidates that have responded as 'unavailable'",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:7092:117",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:79234b4ec63833287f64f470c0d30daf0272dec7/-1:-1",
+            "targetVariableName": "color/red500",
+            "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+            "targetVariableSetName": "core colours"
+          }
+        }
+      },
+      "applied": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.1764705926179886,
+            0.18431372940540314,
+            0.48627451062202454
+          ],
+          "alpha": 1,
+          "hex": "#2D2F7C"
+        },
+        "$description": "Colour to represent candidates that have 'applied'",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:7092:118",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:31f75f9bd113059e712324085f70e2465a3384c1/-1:-1",
+            "targetVariableName": "color/blueberry900",
+            "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+            "targetVariableSetName": "core colours"
+          }
+        }
+      },
+      "submitted": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.35686275362968445,
+            0.6705882549285889,
+            0.9137254953384399
+          ],
+          "alpha": 1,
+          "hex": "#5BABE9"
+        },
+        "$description": "Colour to represent candidates that have been 'submitted' by a recruiter",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:7092:119",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:15a67c23832e729dac7f5995b005a8677b1e1ee3/-1:-1",
+            "targetVariableName": "color/skyblue400",
+            "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+            "targetVariableSetName": "core colours"
+          }
+        }
+      }
+    },
+    "surface": {
+      "primary": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.9686274528503418,
+            0.9686274528503418,
+            0.9686274528503418
+          ],
+          "alpha": 1,
+          "hex": "#F7F7F7"
+        },
+        "$description": "The primary surface colour for page backgrounds",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:7092:120",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:491406308d7e359660cbe451969b3e9fb3164773/-1:-1",
+            "targetVariableName": "color/grey50",
+            "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+            "targetVariableSetName": "core colours"
+          }
+        }
+      },
+      "accent": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.125490203499794,
+            0.12941177189350128,
+            0.32549020648002625
+          ],
+          "alpha": 1,
+          "hex": "#202153"
+        },
+        "$description": "An accented surface colour, used for page backgrounds in modal views",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:7092:121",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:84ae560e6dd63912925295c96065b1c84f50f865/-1:-1",
+            "targetVariableName": "color/blueberry1000",
+            "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
+            "targetVariableSetName": "core colours"
+          }
+        }
+      }
+    }
+  },
+  "$extensions": {
+    "com.figma.modeName": "semantic"
+  }
+}
