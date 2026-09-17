@@ -6,6 +6,7 @@ export const TOKENS_DIR = 'tokens';
 export const BUILD_DIR = 'build';
 export const CSS_FILE = '_generated_variables.css';
 export const SCSS_FILE = '_generated_variables.scss';
+export const TAILWIND_FILE = '_generated_theme.css';
 
 // Figma names its variable collections for designers, not for CSS. These
 // rewrite the top-level group of a path: `null` drops the segment entirely.
@@ -129,12 +130,22 @@ export function resolveTokens(sources) {
   }));
 }
 
+const cssDeclarations = (tokens) =>
+  tokens
+    .map(({ name, value, description }) => {
+      const comment = description ? ` /* ${description} */` : '';
+      return `  --${name}: ${value};${comment}`;
+    })
+    .join('\n');
+
 export function renderCss(tokens) {
-  const lines = tokens.map(({ name, value, description }) => {
-    const comment = description ? ` /* ${description} */` : '';
-    return `  --${name}: ${value};${comment}`;
-  });
-  return `/**\n * ${HEADER}\n */\n\n:root {\n${lines.join('\n')}\n}\n`;
+  return `/**\n * ${HEADER}\n */\n\n:root {\n${cssDeclarations(tokens)}\n}\n`;
+}
+
+// Tailwind v4 reads its theme from custom properties declared in `@theme`
+// rather than a JS config, so the same declarations work as-is.
+export function renderTailwindTheme(tokens) {
+  return `/**\n * ${HEADER}\n */\n\n@theme {\n${cssDeclarations(tokens)}\n}\n`;
 }
 
 export function renderScss(tokens) {
@@ -162,6 +173,7 @@ export function build({ tokensDir = TOKENS_DIR, buildDir = BUILD_DIR } = {}) {
   mkdirSync(buildDir, { recursive: true });
   writeFileSync(join(buildDir, CSS_FILE), renderCss(tokens));
   writeFileSync(join(buildDir, SCSS_FILE), renderScss(tokens));
+  writeFileSync(join(buildDir, TAILWIND_FILE), renderTailwindTheme(tokens));
 
   return { tokens, files: sources.map(({ file }) => file) };
 }
@@ -171,5 +183,7 @@ const isMain = process.argv[1] && import.meta.url === pathToFileURL(process.argv
 if (isMain) {
   const { tokens, files } = build();
   console.log(`Read ${tokens.length} tokens from ${files.length} files: ${files.join(', ')}`);
-  console.log(`Wrote ${BUILD_DIR}/${CSS_FILE} and ${BUILD_DIR}/${SCSS_FILE}`);
+  console.log(
+    `Wrote ${[CSS_FILE, SCSS_FILE, TAILWIND_FILE].map((file) => `${BUILD_DIR}/${file}`).join(', ')}`
+  );
 }

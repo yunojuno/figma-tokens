@@ -8,6 +8,7 @@ import {
   BUILD_DIR,
   CSS_FILE,
   SCSS_FILE,
+  TAILWIND_FILE,
   TOKENS_DIR,
   build,
   cleanPath,
@@ -16,6 +17,7 @@ import {
   readTokenFiles,
   renderCss,
   renderScss,
+  renderTailwindTheme,
   resolveTokens,
 } from './build-tokens.js';
 
@@ -247,6 +249,29 @@ describe('renderCss', () => {
   });
 });
 
+describe('renderTailwindTheme', () => {
+  const tokens = [
+    { name: 'color-white', value: '#ffffff', description: 'UI background' },
+    { name: 'space-10', value: '10px' },
+  ];
+  const rendered = renderTailwindTheme(tokens);
+
+  it('warns against editing the generated file', () => {
+    assert.match(rendered, /^\/\*\*\n \* Do not edit directly, this file was auto-generated\.\n \*\//);
+  });
+
+  it('declares custom properties inside @theme rather than :root', () => {
+    assert.match(rendered, /@theme \{\n {2}--color-white: #ffffff;/);
+    assert.match(rendered, /\n\}\n$/);
+    assert.ok(!rendered.includes(':root'));
+  });
+
+  it('renders the same declarations as the plain CSS output', () => {
+    const declarations = (css) => css.split('\n').filter((line) => line.startsWith('  --'));
+    assert.deepEqual(declarations(rendered), declarations(renderCss(tokens)));
+  });
+});
+
 describe('renderScss', () => {
   const rendered = renderScss([
     { name: 'color-white', value: '#ffffff', description: 'UI background' },
@@ -325,10 +350,14 @@ describe('build', () => {
   const outDir = mkdtempSync(join(tmpdir(), 'figma-tokens-'));
   after(() => rmSync(outDir, { recursive: true, force: true }));
 
-  it('writes both a CSS and an SCSS file', () => {
+  it('writes a CSS, an SCSS and a Tailwind theme file', () => {
     const { tokens } = build({ buildDir: outDir });
     assert.equal(readFileSync(join(outDir, CSS_FILE), 'utf8'), renderCss(tokens));
     assert.equal(readFileSync(join(outDir, SCSS_FILE), 'utf8'), renderScss(tokens));
+    assert.equal(
+      readFileSync(join(outDir, TAILWIND_FILE), 'utf8'),
+      renderTailwindTheme(tokens)
+    );
   });
 
   it('is idempotent', () => {
@@ -345,5 +374,10 @@ describe('build', () => {
     const message = 'committed build output is stale - run `npm run build` and commit the result';
     assert.equal(readFileSync(join(BUILD_DIR, CSS_FILE), 'utf8'), renderCss(tokens), message);
     assert.equal(readFileSync(join(BUILD_DIR, SCSS_FILE), 'utf8'), renderScss(tokens), message);
+    assert.equal(
+      readFileSync(join(BUILD_DIR, TAILWIND_FILE), 'utf8'),
+      renderTailwindTheme(tokens),
+      message
+    );
   });
 });
