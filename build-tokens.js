@@ -142,10 +142,77 @@ export function renderCss(tokens) {
   return `/**\n * ${HEADER}\n */\n\n:root {\n${cssDeclarations(tokens)}\n}\n`;
 }
 
+// Figma publishes weights as style names, which are not CSS values.
+const FONT_WEIGHTS = {
+  thin: 100,
+  extralight: 200,
+  light: 300,
+  normal: 400,
+  regular: 400,
+  medium: 500,
+  semibold: 600,
+  bold: 700,
+  extrabold: 800,
+  black: 900,
+  // Font Awesome ships its icon styles as weights of one family.
+  solid: 900,
+};
+
+const fontWeight = (value, name) => {
+  const style = String(value).toLowerCase().replace(/[\s-]+/g, '');
+  if (/^\d+$/.test(style)) return value;
+
+  const weight = FONT_WEIGHTS[style];
+  if (weight === undefined) {
+    throw new Error(`Unknown font weight "${value}" in ${name}; add it to FONT_WEIGHTS`);
+  }
+  return weight;
+};
+
+// Tailwind only generates a utility class for a theme variable that sits in one
+// of its namespaces, and our names mostly already do: `--color-*` drives
+// `bg-*`/`text-*`, `--radius-*` drives `rounded-*`. These cover the rest.
+// Core values are deliberately left alone - `--space-40` and `--border-5` are
+// raw scale entries, not things we want anyone writing `p-40` against.
+const TAILWIND_RENAMES = [
+  [/^space-(?!\d+$)(.+)$/, 'spacing-$1'],
+  [/^text-(.+)-font-size$/, 'text-$1'],
+  [/^text-(.+)-font-family$/, 'font-$1'],
+  // Tailwind applies a `--text-<name>--<property>` pair whenever the matching
+  // `text-<name>` utility is used, so the weight rides along with the size.
+  [/^text-(.+)-font-weight$/, 'text-$1--font-weight', fontWeight],
+];
+
+export function tailwindToken(token) {
+  for (const [pattern, replacement, transform] of TAILWIND_RENAMES) {
+    if (!pattern.test(token.name)) continue;
+    return {
+      ...token,
+      name: token.name.replace(pattern, replacement),
+      value: transform ? transform(token.value, token.name) : token.value,
+    };
+  }
+  return token;
+}
+
 // Tailwind v4 reads its theme from custom properties declared in `@theme`
-// rather than a JS config, so the same declarations work as-is.
+// rather than a JS config, so the declarations are the same shape as the plain
+// CSS, only renamed.
 export function renderTailwindTheme(tokens) {
-  return `/**\n * ${HEADER}\n */\n\n@theme {\n${cssDeclarations(tokens)}\n}\n`;
+  const renamed = tokens.map(tailwindToken);
+
+  const seen = new Map();
+  renamed.forEach(({ name }, index) => {
+    const original = tokens[index].name;
+    if (seen.has(name)) {
+      throw new Error(
+        `Tailwind name "${name}" is produced by both ${seen.get(name)} and ${original}`
+      );
+    }
+    seen.set(name, original);
+  });
+
+  return `/**\n * ${HEADER}\n */\n\n@theme {\n${cssDeclarations(renamed)}\n}\n`;
 }
 
 export function renderScss(tokens) {
