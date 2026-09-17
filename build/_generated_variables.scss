@@ -14,94 +14,94 @@ $radius-lg: 20px;
 $radius-full: 100px;
 $radius-data: 3px;
 $color-white: #ffffff; // UI background color. All color contrasts evaluated and generated against this color.
-$color-blueberry50: #f8f8ff; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is less than 7.57:1 against background #ffffff
-$color-blueberry100: #ececff; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is 7.57:1 against background #ffffff
-$color-blueberry200: #dcdcff; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is 16.41:1 against background #ffffff
-$color-blueberry300: #bfbffe; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is 31.21:1 against background #ffffff
-$color-blueberry400: #9b9bfc; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is 48.45:1 against background #ffffff
-$color-blueberry500: #7d7df4; // Color can be used for UI elements or large text. WCAG 3 (APCA) contrast is 61.59:1 against background #ffffff
-$color-blueberry600: #6466e4; // Color can be used for UI elements or large text. WCAG 3 (APCA) contrast is 71.57:1 against background #ffffff
-$color-blueberry700: #4d51c9; // Color can be used for small text. WCAG 3 (APCA) contrast is 80.91:1 against background #ffffff
-$color-blueberry800: #3a3daa; // Color can be used for small text. WCAG 3 (APCA) contrast is 89.14:1 against background #ffffff
-$color-blueberry900: #2d2f7c; // Color can be used for small text. WCAG 3 (APCA) contrast is 96.26:1 against background #ffffff
-$color-blueberry1000: #202153; // Color can be used for small text. WCAG 3 (APCA) contrast is 101.6:1 against background #ffffff
-$color-terracotta50: #fff6f3; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is less than 7.57:1 against background #ffffff
-$color-terracotta100: #ffeae1; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is 7.57:1 against background #ffffff
-$color-terracotta200: #fed7c4; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is 16.41:1 against background #ffffff
-$color-terracotta300: #fab684; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is 31.21:1 against background #ffffff
-$color-terracotta400: #e98d56; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is 48.45:1 against background #ffffff
-$color-terracotta500: #d56d39; // Color can be used for UI elements or large text. WCAG 3 (APCA) contrast is 61.59:1 against background #ffffff
-$color-terracotta600: #b65b33; // Color can be used for UI elements or large text. WCAG 3 (APCA) contrast is 71.57:1 against background #ffffff
-$color-terracotta700: #924d33; // Color can be used for small text. WCAG 3 (APCA) contrast is 80.91:1 against background #ffffff
-$color-terracotta800: #6f4031; // Color can be used for small text. WCAG 3 (APCA) contrast is 89.14:1 against background #ffffff
-$color-terracotta900: #4f322b; // Color can be used for small text. WCAG 3 (APCA) contrast is 96.26:1 against background #ffffff
-$color-terracotta1000: #36231d; // Color can be used for small text. WCAG 3 (APCA) contrast is 101.6:1 against background #ffffff
-$color-mint50: #ebfbf7; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is less than 7.57:1 against background #ffffff
-$color-mint100: #d1f6eb; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is 7.57:1 against background #ffffff
-$color-mint200: #abebdb; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is 16.41:1 against background #ffffff
-$color-mint300: #74d7be; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is 31.21:1 against background #ffffff
-$color-mint400: #31b898; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is 48.45:1 against background #ffffff
-$color-mint500: #1f9b7d; // Color can be used for UI elements or large text. WCAG 3 (APCA) contrast is 61.59:1 against background #ffffff
-$color-mint600: #158468; // Color can be used for UI elements or large text. WCAG 3 (APCA) contrast is 71.57:1 against background #ffffff
-$color-mint700: #106c55; // Color can be used for small text. WCAG 3 (APCA) contrast is 80.91:1 against background #ffffff
-$color-mint800: #0c5644; // Color can be used for small text. WCAG 3 (APCA) contrast is 89.14:1 against background #ffffff
-$color-mint900: #094133; // Color can be used for small text. WCAG 3 (APCA) contrast is 96.26:1 against background #ffffff
-$color-mint1000: #062c23; // Color can be used for small text. WCAG 3 (APCA) contrast is 101.6:1 against background #ffffff
-$color-skyblue50: #f1fafc; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is less than 7.57:1 against background #ffffff
-$color-skyblue100: #daf2f8; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is 7.57:1 against background #ffffff
-$color-skyblue200: #bee4f8; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is 16.41:1 against background #ffffff
-$color-skyblue300: #95cbf3; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is 31.21:1 against background #ffffff
-$color-skyblue400: #5babe9; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is 48.45:1 against background #ffffff
-$color-skyblue500: #288fde; // Color can be used for UI elements or large text. WCAG 3 (APCA) contrast is 61.59:1 against background #ffffff
-$color-skyblue600: #1f79be; // Color can be used for UI elements or large text. WCAG 3 (APCA) contrast is 71.57:1 against background #ffffff
-$color-skyblue700: #1b639b; // Color can be used for small text. WCAG 3 (APCA) contrast is 80.91:1 against background #ffffff
-$color-skyblue800: #134f7d; // Color can be used for small text. WCAG 3 (APCA) contrast is 89.14:1 against background #ffffff
-$color-skyblue900: #113b5e; // Color can be used for small text. WCAG 3 (APCA) contrast is 96.26:1 against background #ffffff
-$color-skyblue1000: #13293c; // Color can be used for small text. WCAG 3 (APCA) contrast is 101.6:1 against background #ffffff
-$color-grey50: #f7f7f7; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is less than 7.57:1 against background #ffffff
-$color-grey100: #eeeeee; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is 7.57:1 against background #ffffff
-$color-grey200: #dfdfdf; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is 16.41:1 against background #ffffff
-$color-grey300: #c5c5c5; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is 31.21:1 against background #ffffff
-$color-grey400: #a5a5a5; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is 48.45:1 against background #ffffff
-$color-grey500: #8b8b8b; // Color can be used for UI elements or large text. WCAG 3 (APCA) contrast is 61.59:1 against background #ffffff
-$color-grey600: #767676; // Color can be used for UI elements or large text. WCAG 3 (APCA) contrast is 71.57:1 against background #ffffff
-$color-grey700: #616161; // Color can be used for small text. WCAG 3 (APCA) contrast is 80.91:1 against background #ffffff
-$color-grey800: #4d4d4d; // Color can be used for small text. WCAG 3 (APCA) contrast is 89.14:1 against background #ffffff
-$color-grey900: #3a3a3a; // Color can be used for small text. WCAG 3 (APCA) contrast is 96.26:1 against background #ffffff
-$color-grey1000: #282828; // Color can be used for small text. WCAG 3 (APCA) contrast is 101.6:1 against background #ffffff
-$color-yellow50: #fff9da; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is less than 7.57:1 against background #ffffff
-$color-yellow100: #fceeb8; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is 7.57:1 against background #ffffff
-$color-yellow200: #f6dd8e; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is 16.41:1 against background #ffffff
-$color-yellow300: #e8c04e; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is 31.21:1 against background #ffffff
-$color-yellow400: #ce9d16; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is 48.45:1 against background #ffffff
-$color-yellow500: #ad8413; // Color can be used for UI elements or large text. WCAG 3 (APCA) contrast is 61.59:1 against background #ffffff
-$color-yellow600: #937010; // Color can be used for UI elements or large text. WCAG 3 (APCA) contrast is 71.57:1 against background #ffffff
-$color-yellow700: #795c0d; // Color can be used for small text. WCAG 3 (APCA) contrast is 80.91:1 against background #ffffff
-$color-yellow800: #60490a; // Color can be used for small text. WCAG 3 (APCA) contrast is 89.14:1 against background #ffffff
-$color-yellow900: #493708; // Color can be used for small text. WCAG 3 (APCA) contrast is 96.26:1 against background #ffffff
-$color-yellow1000: #322605; // Color can be used for small text. WCAG 3 (APCA) contrast is 101.6:1 against background #ffffff
-$color-red50: #fff6f6; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is less than 7.57:1 against background #ffffff
-$color-red100: #ffe9e9; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is 7.57:1 against background #ffffff
-$color-red200: #ffd5d5; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is 16.41:1 against background #ffffff
-$color-red300: #ffb0b0; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is 31.21:1 against background #ffffff
-$color-red400: #fd7d7c; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is 48.45:1 against background #ffffff
-$color-red500: #f84542; // Color can be used for UI elements or large text. WCAG 3 (APCA) contrast is 61.59:1 against background #ffffff
-$color-red600: #d33a38; // Color can be used for UI elements or large text. WCAG 3 (APCA) contrast is 71.57:1 against background #ffffff
-$color-red700: #ad302e; // Color can be used for small text. WCAG 3 (APCA) contrast is 80.91:1 against background #ffffff
-$color-red800: #892624; // Color can be used for small text. WCAG 3 (APCA) contrast is 89.14:1 against background #ffffff
-$color-red900: #671d1b; // Color can be used for small text. WCAG 3 (APCA) contrast is 96.26:1 against background #ffffff
-$color-red1000: #471413; // Color can be used for small text. WCAG 3 (APCA) contrast is 101.6:1 against background #ffffff
-$color-moonlight50: #f7f7f9; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is less than 7.57:1 against background #ffffff
-$color-moonlight100: #eeeef1; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is 7.57:1 against background #ffffff
-$color-moonlight200: #dedee5; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is 16.41:1 against background #ffffff
-$color-moonlight300: #c4c4d0; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is 31.21:1 against background #ffffff
-$color-moonlight400: #a3a3b5; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is 48.45:1 against background #ffffff
-$color-moonlight500: #8989a0; // Color can be used for UI elements or large text. WCAG 3 (APCA) contrast is 61.59:1 against background #ffffff
-$color-moonlight600: #74748e; // Color can be used for UI elements or large text. WCAG 3 (APCA) contrast is 71.57:1 against background #ffffff
-$color-moonlight700: #5f5f76; // Color can be used for small text. WCAG 3 (APCA) contrast is 80.91:1 against background #ffffff
-$color-moonlight800: #4b4b61; // Color can be used for small text. WCAG 3 (APCA) contrast is 89.14:1 against background #ffffff
-$color-moonlight900: #39394d; // Color can be used for small text. WCAG 3 (APCA) contrast is 96.26:1 against background #ffffff
-$color-moonlight1000: #262736; // Color can be used for small text. WCAG 3 (APCA) contrast is 101.6:1 against background #ffffff
+$color-blueberry-50: #f8f8ff; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is less than 7.57:1 against background #ffffff
+$color-blueberry-100: #ececff; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is 7.57:1 against background #ffffff
+$color-blueberry-200: #dcdcff; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is 16.41:1 against background #ffffff
+$color-blueberry-300: #bfbffe; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is 31.21:1 against background #ffffff
+$color-blueberry-400: #9b9bfc; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is 48.45:1 against background #ffffff
+$color-blueberry-500: #7d7df4; // Color can be used for UI elements or large text. WCAG 3 (APCA) contrast is 61.59:1 against background #ffffff
+$color-blueberry-600: #6466e4; // Color can be used for UI elements or large text. WCAG 3 (APCA) contrast is 71.57:1 against background #ffffff
+$color-blueberry-700: #4d51c9; // Color can be used for small text. WCAG 3 (APCA) contrast is 80.91:1 against background #ffffff
+$color-blueberry-800: #3a3daa; // Color can be used for small text. WCAG 3 (APCA) contrast is 89.14:1 against background #ffffff
+$color-blueberry-900: #2d2f7c; // Color can be used for small text. WCAG 3 (APCA) contrast is 96.26:1 against background #ffffff
+$color-blueberry-1000: #202153; // Color can be used for small text. WCAG 3 (APCA) contrast is 101.6:1 against background #ffffff
+$color-terracotta-50: #fff6f3; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is less than 7.57:1 against background #ffffff
+$color-terracotta-100: #ffeae1; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is 7.57:1 against background #ffffff
+$color-terracotta-200: #fed7c4; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is 16.41:1 against background #ffffff
+$color-terracotta-300: #fab684; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is 31.21:1 against background #ffffff
+$color-terracotta-400: #e98d56; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is 48.45:1 against background #ffffff
+$color-terracotta-500: #d56d39; // Color can be used for UI elements or large text. WCAG 3 (APCA) contrast is 61.59:1 against background #ffffff
+$color-terracotta-600: #b65b33; // Color can be used for UI elements or large text. WCAG 3 (APCA) contrast is 71.57:1 against background #ffffff
+$color-terracotta-700: #924d33; // Color can be used for small text. WCAG 3 (APCA) contrast is 80.91:1 against background #ffffff
+$color-terracotta-800: #6f4031; // Color can be used for small text. WCAG 3 (APCA) contrast is 89.14:1 against background #ffffff
+$color-terracotta-900: #4f322b; // Color can be used for small text. WCAG 3 (APCA) contrast is 96.26:1 against background #ffffff
+$color-terracotta-1000: #36231d; // Color can be used for small text. WCAG 3 (APCA) contrast is 101.6:1 against background #ffffff
+$color-mint-50: #ebfbf7; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is less than 7.57:1 against background #ffffff
+$color-mint-100: #d1f6eb; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is 7.57:1 against background #ffffff
+$color-mint-200: #abebdb; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is 16.41:1 against background #ffffff
+$color-mint-300: #74d7be; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is 31.21:1 against background #ffffff
+$color-mint-400: #31b898; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is 48.45:1 against background #ffffff
+$color-mint-500: #1f9b7d; // Color can be used for UI elements or large text. WCAG 3 (APCA) contrast is 61.59:1 against background #ffffff
+$color-mint-600: #158468; // Color can be used for UI elements or large text. WCAG 3 (APCA) contrast is 71.57:1 against background #ffffff
+$color-mint-700: #106c55; // Color can be used for small text. WCAG 3 (APCA) contrast is 80.91:1 against background #ffffff
+$color-mint-800: #0c5644; // Color can be used for small text. WCAG 3 (APCA) contrast is 89.14:1 against background #ffffff
+$color-mint-900: #094133; // Color can be used for small text. WCAG 3 (APCA) contrast is 96.26:1 against background #ffffff
+$color-mint-1000: #062c23; // Color can be used for small text. WCAG 3 (APCA) contrast is 101.6:1 against background #ffffff
+$color-skyblue-50: #f1fafc; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is less than 7.57:1 against background #ffffff
+$color-skyblue-100: #daf2f8; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is 7.57:1 against background #ffffff
+$color-skyblue-200: #bee4f8; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is 16.41:1 against background #ffffff
+$color-skyblue-300: #95cbf3; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is 31.21:1 against background #ffffff
+$color-skyblue-400: #5babe9; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is 48.45:1 against background #ffffff
+$color-skyblue-500: #288fde; // Color can be used for UI elements or large text. WCAG 3 (APCA) contrast is 61.59:1 against background #ffffff
+$color-skyblue-600: #1f79be; // Color can be used for UI elements or large text. WCAG 3 (APCA) contrast is 71.57:1 against background #ffffff
+$color-skyblue-700: #1b639b; // Color can be used for small text. WCAG 3 (APCA) contrast is 80.91:1 against background #ffffff
+$color-skyblue-800: #134f7d; // Color can be used for small text. WCAG 3 (APCA) contrast is 89.14:1 against background #ffffff
+$color-skyblue-900: #113b5e; // Color can be used for small text. WCAG 3 (APCA) contrast is 96.26:1 against background #ffffff
+$color-skyblue-1000: #13293c; // Color can be used for small text. WCAG 3 (APCA) contrast is 101.6:1 against background #ffffff
+$color-grey-50: #f7f7f7; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is less than 7.57:1 against background #ffffff
+$color-grey-100: #eeeeee; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is 7.57:1 against background #ffffff
+$color-grey-200: #dfdfdf; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is 16.41:1 against background #ffffff
+$color-grey-300: #c5c5c5; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is 31.21:1 against background #ffffff
+$color-grey-400: #a5a5a5; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is 48.45:1 against background #ffffff
+$color-grey-500: #8b8b8b; // Color can be used for UI elements or large text. WCAG 3 (APCA) contrast is 61.59:1 against background #ffffff
+$color-grey-600: #767676; // Color can be used for UI elements or large text. WCAG 3 (APCA) contrast is 71.57:1 against background #ffffff
+$color-grey-700: #616161; // Color can be used for small text. WCAG 3 (APCA) contrast is 80.91:1 against background #ffffff
+$color-grey-800: #4d4d4d; // Color can be used for small text. WCAG 3 (APCA) contrast is 89.14:1 against background #ffffff
+$color-grey-900: #3a3a3a; // Color can be used for small text. WCAG 3 (APCA) contrast is 96.26:1 against background #ffffff
+$color-grey-1000: #282828; // Color can be used for small text. WCAG 3 (APCA) contrast is 101.6:1 against background #ffffff
+$color-yellow-50: #fff9da; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is less than 7.57:1 against background #ffffff
+$color-yellow-100: #fceeb8; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is 7.57:1 against background #ffffff
+$color-yellow-200: #f6dd8e; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is 16.41:1 against background #ffffff
+$color-yellow-300: #e8c04e; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is 31.21:1 against background #ffffff
+$color-yellow-400: #ce9d16; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is 48.45:1 against background #ffffff
+$color-yellow-500: #ad8413; // Color can be used for UI elements or large text. WCAG 3 (APCA) contrast is 61.59:1 against background #ffffff
+$color-yellow-600: #937010; // Color can be used for UI elements or large text. WCAG 3 (APCA) contrast is 71.57:1 against background #ffffff
+$color-yellow-700: #795c0d; // Color can be used for small text. WCAG 3 (APCA) contrast is 80.91:1 against background #ffffff
+$color-yellow-800: #60490a; // Color can be used for small text. WCAG 3 (APCA) contrast is 89.14:1 against background #ffffff
+$color-yellow-900: #493708; // Color can be used for small text. WCAG 3 (APCA) contrast is 96.26:1 against background #ffffff
+$color-yellow-1000: #322605; // Color can be used for small text. WCAG 3 (APCA) contrast is 101.6:1 against background #ffffff
+$color-red-50: #fff6f6; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is less than 7.57:1 against background #ffffff
+$color-red-100: #ffe9e9; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is 7.57:1 against background #ffffff
+$color-red-200: #ffd5d5; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is 16.41:1 against background #ffffff
+$color-red-300: #ffb0b0; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is 31.21:1 against background #ffffff
+$color-red-400: #fd7d7c; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is 48.45:1 against background #ffffff
+$color-red-500: #f84542; // Color can be used for UI elements or large text. WCAG 3 (APCA) contrast is 61.59:1 against background #ffffff
+$color-red-600: #d33a38; // Color can be used for UI elements or large text. WCAG 3 (APCA) contrast is 71.57:1 against background #ffffff
+$color-red-700: #ad302e; // Color can be used for small text. WCAG 3 (APCA) contrast is 80.91:1 against background #ffffff
+$color-red-800: #892624; // Color can be used for small text. WCAG 3 (APCA) contrast is 89.14:1 against background #ffffff
+$color-red-900: #671d1b; // Color can be used for small text. WCAG 3 (APCA) contrast is 96.26:1 against background #ffffff
+$color-red-1000: #471413; // Color can be used for small text. WCAG 3 (APCA) contrast is 101.6:1 against background #ffffff
+$color-moonlight-50: #f7f7f9; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is less than 7.57:1 against background #ffffff
+$color-moonlight-100: #eeeef1; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is 7.57:1 against background #ffffff
+$color-moonlight-200: #dedee5; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is 16.41:1 against background #ffffff
+$color-moonlight-300: #c4c4d0; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is 31.21:1 against background #ffffff
+$color-moonlight-400: #a3a3b5; // Do not use for UI elements or text. WCAG 3 (APCA) contrast is 48.45:1 against background #ffffff
+$color-moonlight-500: #8989a0; // Color can be used for UI elements or large text. WCAG 3 (APCA) contrast is 61.59:1 against background #ffffff
+$color-moonlight-600: #74748e; // Color can be used for UI elements or large text. WCAG 3 (APCA) contrast is 71.57:1 against background #ffffff
+$color-moonlight-700: #5f5f76; // Color can be used for small text. WCAG 3 (APCA) contrast is 80.91:1 against background #ffffff
+$color-moonlight-800: #4b4b61; // Color can be used for small text. WCAG 3 (APCA) contrast is 89.14:1 against background #ffffff
+$color-moonlight-900: #39394d; // Color can be used for small text. WCAG 3 (APCA) contrast is 96.26:1 against background #ffffff
+$color-moonlight-1000: #262736; // Color can be used for small text. WCAG 3 (APCA) contrast is 101.6:1 against background #ffffff
 $color-action-primary-default: #4d51c9; // The primary colour for interactive elements
 $color-action-primary-hover: #7d7df4; // The colour used for the primary interactive elements when in a hover state
 $color-action-secondary-default: #ececff; // The secondary colour for interactive elements
