@@ -1,0 +1,127 @@
+{
+  "border-5": {
+    "$type": "number",
+    "$value": 5,
+    "$extensions": {
+      "com.figma.variableId": "VariableID:6945:4540",
+      "com.figma.scopes": [
+        "CORNER_RADIUS"
+      ]
+    }
+  },
+  "border-10": {
+    "$type": "number",
+    "$value": 10,
+    "$extensions": {
+      "com.figma.variableId": "VariableID:6945:4541",
+      "com.figma.scopes": [
+        "CORNER_RADIUS"
+      ]
+    }
+  },
+  "border-0": {
+    "$type": "number",
+    "$value": 0,
+    "$extensions": {
+      "com.figma.variableId": "VariableID:7313:24",
+      "com.figma.scopes": [
+        "CORNER_RADIUS"
+      ]
+    }
+  },
+  "border-20": {
+    "$type": "number",
+    "$value": 20,
+    "$extensions": {
+      "com.figma.variableId": "VariableID:7313:25",
+      "com.figma.scopes": [
+        "CORNER_RADIUS"
+      ]
+    }
+  },
+  "border-50": {
+    "$type": "number",
+    "$value": 50,
+    "$extensions": {
+      "com.figma.variableId": "VariableID:7313:26",
+      "com.figma.scopes": [
+        "CORNER_RADIUS"
+      ]
+    }
+  },
+  "border-full": {
+    "$type": "number",
+    "$value": 100,
+    "$extensions": {
+      "com.figma.variableId": "VariableID:7313:27",
+      "com.figma.scopes": [
+        "CORNER_RADIUS"
+      ]
+    }
+  },
+  "border-3": {
+    "$type": "number",
+    "$value": 3,
+    "$extensions": {
+      "com.figma.variableId": "VariableID:7313:28",
+      "com.figma.scopes": [
+        "CORNER_RADIUS"
+      ]
+    }
+  },
+  "radius": {
+    "sm": {
+      "$type": "number",
+      "$value": "{border-5}",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:7313:29",
+        "com.figma.scopes": [
+          "CORNER_RADIUS"
+        ]
+      }
+    },
+    "md": {
+      "$type": "number",
+      "$value": "{border-10}",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:7313:30",
+        "com.figma.scopes": [
+          "CORNER_RADIUS"
+        ]
+      }
+    },
+    "lg": {
+      "$type": "number",
+      "$value": "{border-20}",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:7313:31",
+        "com.figma.scopes": [
+          "CORNER_RADIUS"
+        ]
+      }
+    },
+    "full": {
+      "$type": "number",
+      "$value": "{border-full}",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:7313:32",
+        "com.figma.scopes": [
+          "CORNER_RADIUS"
+        ]
+      }
+    },
+    "data": {
+      "$type": "number",
+      "$value": "{border-3}",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:7313:33",
+        "com.figma.scopes": [
+          "CORNER_RADIUS"
+        ]
+      }
+    }
+  },
+  "$extensions": {
+    "com.figma.modeName": "Mode 1"
+  }
+}

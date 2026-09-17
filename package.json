@@ -1,20 +1,13 @@
 {
   "name": "@yunojuno/figma-tokens",
-  "version": "0.1.3",
+  "version": "2.0.0",
   "description": "This is where we are testing figma tokens.",
   "main": "index.js",
   "scripts": {
-    "style-dictionary": "style-dictionary build",
-    "token-transformer": "node transform-tokens.js"
+    "build": "node build-tokens.js",
+    "test": "node --test --test-reporter=spec"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "@tokens-studio/sd-transforms": "^1.2.9",
-    "token-transformer": "^0.0.33"
-  },
-  "devDependencies": {
-    "style-dictionary": "^4.2.0"
-  },
   "type": "module"
 }
