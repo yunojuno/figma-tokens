@@ -271,7 +271,7 @@ describe('tailwindToken', () => {
   });
 
   it('leaves colours and radii untouched, as they are already in a namespace', () => {
-    assert.equal(name('color-blueberry700'), 'color-blueberry700');
+    assert.equal(name('color-blueberry-700'), 'color-blueberry-700');
     assert.equal(name('color-action-primary-default'), 'color-action-primary-default');
     assert.equal(name('radius-sm'), 'radius-sm');
   });
@@ -416,9 +416,9 @@ describe('the real token set', () => {
 
   it('keeps the semantic colours aliased to the core palette in step', () => {
     const byName = new Map(tokens.map((t) => [t.name, t.value]));
-    // action.primary.default aliases core blueberry700 in Figma.
-    assert.equal(byName.get('color-action-primary-default'), byName.get('color-blueberry700'));
-    assert.equal(byName.get('color-text-accent'), byName.get('color-blueberry700'));
+    // action.primary.default aliases core blueberry-700 in Figma.
+    assert.equal(byName.get('color-action-primary-default'), byName.get('color-blueberry-700'));
+    assert.equal(byName.get('color-text-accent'), byName.get('color-blueberry-700'));
   });
 
   it('maps every semantic token onto a unique Tailwind name', () => {
