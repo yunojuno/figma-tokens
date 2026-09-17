@@ -44,8 +44,10 @@ The generated files are committed, so `npm test` asserts against the current con
 
 ## Updating tokens
 
-1. Make the change to the variables in Figma and export them, replacing the relevant
-   file(s) in `tokens/`. Only `tokens/` should be edited by hand; never `build/`.
+1. When designers update tokens in Figma, they should be able to provide you updated 
+   Figma Variable exports that you can overwrite the file(s) in `tokens/` with. Only `tokens/` 
+   should be edited by hand; never `build/`. NOTE: You may need to rename the exports to match
+   the convention in `tokens/`.
 2. Open a pull request. The [Build workflow](https://github.com/yunojuno/figma-tokens/actions)
    regenerates `build/` and commits the result back to your branch, then runs the tests.
 3. Review the generated diff along with the token change - it's the clearest signal of what
