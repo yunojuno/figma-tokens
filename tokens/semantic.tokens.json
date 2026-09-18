@@ -22,7 +22,7 @@
             ],
             "com.figma.aliasData": {
               "targetVariableId": "VariableID:31b467a1252128e0b3e361be4e5babcd78f128a9/-1:-1",
-              "targetVariableName": "color/blueberry700",
+              "targetVariableName": "color/blueberry-700",
               "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
               "targetVariableSetName": "core colours"
             }
@@ -48,7 +48,7 @@
             ],
             "com.figma.aliasData": {
               "targetVariableId": "VariableID:c149d4b78ed7665f55077825b1df978def50f9f3/-1:-1",
-              "targetVariableName": "color/blueberry500",
+              "targetVariableName": "color/blueberry-500",
               "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
               "targetVariableSetName": "core colours"
             }
@@ -76,7 +76,7 @@
             ],
             "com.figma.aliasData": {
               "targetVariableId": "VariableID:418cda5ed8afbde2e0c6de8bd07beb770fc7ab3c/-1:-1",
-              "targetVariableName": "color/blueberry100",
+              "targetVariableName": "color/blueberry-100",
               "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
               "targetVariableSetName": "core colours"
             }
@@ -102,7 +102,7 @@
             ],
             "com.figma.aliasData": {
               "targetVariableId": "VariableID:4e51eec7523642fa895283fbefd692086af12e23/-1:-1",
-              "targetVariableName": "color/blueberry50",
+              "targetVariableName": "color/blueberry-50",
               "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
               "targetVariableSetName": "core colours"
             }
@@ -130,7 +130,7 @@
             ],
             "com.figma.aliasData": {
               "targetVariableId": "VariableID:316fde699ced9ce0cd621b1904b93548089089e6/-1:-1",
-              "targetVariableName": "color/grey200",
+              "targetVariableName": "color/grey-200",
               "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
               "targetVariableSetName": "core colours"
             }
@@ -156,7 +156,7 @@
             ],
             "com.figma.aliasData": {
               "targetVariableId": "VariableID:7ae362bee1801a10fa2ba561393e0c8ed425a657/-1:-1",
-              "targetVariableName": "color/grey400",
+              "targetVariableName": "color/grey-400",
               "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
               "targetVariableSetName": "core colours"
             }
@@ -182,7 +182,7 @@
             ],
             "com.figma.aliasData": {
               "targetVariableId": "VariableID:98b0ce5bc527a47fe13c2a672673f2c561d460b0/-1:-1",
-              "targetVariableName": "color/grey300",
+              "targetVariableName": "color/grey-300",
               "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
               "targetVariableSetName": "core colours"
             }
@@ -208,7 +208,7 @@
             ],
             "com.figma.aliasData": {
               "targetVariableId": "VariableID:15a67c23832e729dac7f5995b005a8677b1e1ee3/-1:-1",
-              "targetVariableName": "color/skyblue400",
+              "targetVariableName": "color/skyblue-400",
               "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
               "targetVariableSetName": "core colours"
             }
@@ -262,7 +262,7 @@
             ],
             "com.figma.aliasData": {
               "targetVariableId": "VariableID:58ab1f4c86939861320f62584f8a778957831672/-1:-1",
-              "targetVariableName": "color/grey100",
+              "targetVariableName": "color/grey-100",
               "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
               "targetVariableSetName": "core colours"
             }
@@ -288,7 +288,7 @@
             ],
             "com.figma.aliasData": {
               "targetVariableId": "VariableID:491406308d7e359660cbe451969b3e9fb3164773/-1:-1",
-              "targetVariableName": "color/grey50",
+              "targetVariableName": "color/grey-50",
               "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
               "targetVariableSetName": "core colours"
             }
@@ -317,7 +317,7 @@
           ],
           "com.figma.aliasData": {
             "targetVariableId": "VariableID:7b6e93216de972f5d2f12ff52dbc476693cde8ca/-1:-1",
-            "targetVariableName": "color/grey1000",
+            "targetVariableName": "color/grey-1000",
             "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
             "targetVariableSetName": "core colours"
           }
@@ -343,7 +343,7 @@
           ],
           "com.figma.aliasData": {
             "targetVariableId": "VariableID:75c77f1570d5b727a41c5bafd4d969ed5e51cce8/-1:-1",
-            "targetVariableName": "color/grey700",
+            "targetVariableName": "color/grey-700",
             "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
             "targetVariableSetName": "core colours"
           }
@@ -369,7 +369,7 @@
           ],
           "com.figma.aliasData": {
             "targetVariableId": "VariableID:9781296c1ee3b607fd3d38ada718b3ae7dd6aafa/-1:-1",
-            "targetVariableName": "color/grey600",
+            "targetVariableName": "color/grey-600",
             "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
             "targetVariableSetName": "core colours"
           }
@@ -395,7 +395,7 @@
           ],
           "com.figma.aliasData": {
             "targetVariableId": "VariableID:31b467a1252128e0b3e361be4e5babcd78f128a9/-1:-1",
-            "targetVariableName": "color/blueberry700",
+            "targetVariableName": "color/blueberry-700",
             "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
             "targetVariableSetName": "core colours"
           }
@@ -449,7 +449,7 @@
           ],
           "com.figma.aliasData": {
             "targetVariableId": "VariableID:58ab1f4c86939861320f62584f8a778957831672/-1:-1",
-            "targetVariableName": "color/grey100",
+            "targetVariableName": "color/grey-100",
             "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
             "targetVariableSetName": "core colours"
           }
@@ -501,7 +501,7 @@
           ],
           "com.figma.aliasData": {
             "targetVariableId": "VariableID:31b467a1252128e0b3e361be4e5babcd78f128a9/-1:-1",
-            "targetVariableName": "color/blueberry700",
+            "targetVariableName": "color/blueberry-700",
             "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
             "targetVariableSetName": "core colours"
           }
@@ -529,7 +529,7 @@
           ],
           "com.figma.aliasData": {
             "targetVariableId": "VariableID:49a7b47d7e58321697f61f68bf7315c20ad2cd44/-1:-1",
-            "targetVariableName": "color/mint300",
+            "targetVariableName": "color/mint-300",
             "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
             "targetVariableSetName": "core colours"
           }
@@ -555,7 +555,7 @@
           ],
           "com.figma.aliasData": {
             "targetVariableId": "VariableID:c7d84e02814663b0d5a3a44b918dc8ca737fe45a/-1:-1",
-            "targetVariableName": "color/yellow300",
+            "targetVariableName": "color/yellow-300",
             "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
             "targetVariableSetName": "core colours"
           }
@@ -581,7 +581,7 @@
           ],
           "com.figma.aliasData": {
             "targetVariableId": "VariableID:79234b4ec63833287f64f470c0d30daf0272dec7/-1:-1",
-            "targetVariableName": "color/red500",
+            "targetVariableName": "color/red-500",
             "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
             "targetVariableSetName": "core colours"
           }
@@ -607,7 +607,7 @@
           ],
           "com.figma.aliasData": {
             "targetVariableId": "VariableID:370633091e1f140f024d523cda4ebe13f91f4e4e/-1:-1",
-            "targetVariableName": "color/skyblue300",
+            "targetVariableName": "color/skyblue-300",
             "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
             "targetVariableSetName": "core colours"
           }
@@ -633,7 +633,7 @@
           ],
           "com.figma.aliasData": {
             "targetVariableId": "VariableID:96ab6ebcce78d06c02e0a09c06750fd64f23888a/-1:-1",
-            "targetVariableName": "color/skyblue500",
+            "targetVariableName": "color/skyblue-500",
             "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
             "targetVariableSetName": "core colours"
           }
@@ -659,7 +659,7 @@
           ],
           "com.figma.aliasData": {
             "targetVariableId": "VariableID:98b0ce5bc527a47fe13c2a672673f2c561d460b0/-1:-1",
-            "targetVariableName": "color/grey300",
+            "targetVariableName": "color/grey-300",
             "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
             "targetVariableSetName": "core colours"
           }
@@ -686,7 +686,7 @@
             ],
             "com.figma.aliasData": {
               "targetVariableId": "VariableID:55c920312a2b786a8fed0beda8337d8a47fc0e04/-1:-1",
-              "targetVariableName": "color/mint50",
+              "targetVariableName": "color/mint-50",
               "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
               "targetVariableSetName": "core colours"
             }
@@ -712,7 +712,7 @@
             ],
             "com.figma.aliasData": {
               "targetVariableId": "VariableID:cf88ade27427cda139f6736fd1bb5c9d95656901/-1:-1",
-              "targetVariableName": "color/yellow50",
+              "targetVariableName": "color/yellow-50",
               "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
               "targetVariableSetName": "core colours"
             }
@@ -738,7 +738,7 @@
             ],
             "com.figma.aliasData": {
               "targetVariableId": "VariableID:e07650af5ad89c9d2ff70f25dbb7d6cf54b50d25/-1:-1",
-              "targetVariableName": "color/red100",
+              "targetVariableName": "color/red-100",
               "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
               "targetVariableSetName": "core colours"
             }
@@ -764,7 +764,7 @@
             ],
             "com.figma.aliasData": {
               "targetVariableId": "VariableID:ef19cf5cdba3a60e0e209393c439ff44d2a60dc5/-1:-1",
-              "targetVariableName": "color/skyblue50",
+              "targetVariableName": "color/skyblue-50",
               "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
               "targetVariableSetName": "core colours"
             }
@@ -790,7 +790,7 @@
             ],
             "com.figma.aliasData": {
               "targetVariableId": "VariableID:b3c429497eb446ed3a7f1a4deabcaec4985bb5d6/-1:-1",
-              "targetVariableName": "color/moonlight50",
+              "targetVariableName": "color/moonlight-50",
               "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
               "targetVariableSetName": "core colours"
             }
@@ -818,7 +818,7 @@
             ],
             "com.figma.aliasData": {
               "targetVariableId": "VariableID:d2d7da2c7c890330df6741c862e594462ce56b12/-1:-1",
-              "targetVariableName": "color/red700",
+              "targetVariableName": "color/red-700",
               "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
               "targetVariableSetName": "core colours"
             }
@@ -844,7 +844,7 @@
             ],
             "com.figma.aliasData": {
               "targetVariableId": "VariableID:834117f9a87a5a818f88daffeb314df6b1dd8505/-1:-1",
-              "targetVariableName": "color/skyblue700",
+              "targetVariableName": "color/skyblue-700",
               "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
               "targetVariableSetName": "core colours"
             }
@@ -870,7 +870,7 @@
             ],
             "com.figma.aliasData": {
               "targetVariableId": "VariableID:18c58ba3798ae1fb43854d5d2b67108093ccba70/-1:-1",
-              "targetVariableName": "color/mint700",
+              "targetVariableName": "color/mint-700",
               "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
               "targetVariableSetName": "core colours"
             }
@@ -895,7 +895,7 @@
             ],
             "com.figma.aliasData": {
               "targetVariableId": "VariableID:f1360fad828bd1a86d4fe79f01daf1536fd2f5a4/-1:-1",
-              "targetVariableName": "color/yellow600",
+              "targetVariableName": "color/yellow-600",
               "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
               "targetVariableSetName": "core colours"
             }
@@ -920,7 +920,7 @@
             ],
             "com.figma.aliasData": {
               "targetVariableId": "VariableID:ccf0ed5da074846888bb34dc85b49189e0309908/-1:-1",
-              "targetVariableName": "color/moonlight700",
+              "targetVariableName": "color/moonlight-700",
               "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
               "targetVariableSetName": "core colours"
             }
@@ -949,7 +949,7 @@
           ],
           "com.figma.aliasData": {
             "targetVariableId": "VariableID:90d785b61f14a9fd33a59231d73940be98289e34/-1:-1",
-            "targetVariableName": "color/mint400",
+            "targetVariableName": "color/mint-400",
             "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
             "targetVariableSetName": "core colours"
           }
@@ -975,7 +975,7 @@
           ],
           "com.figma.aliasData": {
             "targetVariableId": "VariableID:370633091e1f140f024d523cda4ebe13f91f4e4e/-1:-1",
-            "targetVariableName": "color/skyblue300",
+            "targetVariableName": "color/skyblue-300",
             "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
             "targetVariableSetName": "core colours"
           }
@@ -1001,7 +1001,7 @@
           ],
           "com.figma.aliasData": {
             "targetVariableId": "VariableID:262ce679be2a3d36db34e4461a9433c4ba3691a3/-1:-1",
-            "targetVariableName": "color/terracotta300",
+            "targetVariableName": "color/terracotta-300",
             "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
             "targetVariableSetName": "core colours"
           }
@@ -1028,7 +1028,7 @@
             ],
             "com.figma.aliasData": {
               "targetVariableId": "VariableID:54bd6051d32a31311cd951febca86d7ae9398697/-1:-1",
-              "targetVariableName": "color/mint100",
+              "targetVariableName": "color/mint-100",
               "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
               "targetVariableSetName": "core colours"
             }
@@ -1054,7 +1054,7 @@
             ],
             "com.figma.aliasData": {
               "targetVariableId": "VariableID:a10e1f1221b57b8668459237403cc1f46e2daa87/-1:-1",
-              "targetVariableName": "color/skyblue100",
+              "targetVariableName": "color/skyblue-100",
               "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
               "targetVariableSetName": "core colours"
             }
@@ -1079,7 +1079,7 @@
             ],
             "com.figma.aliasData": {
               "targetVariableId": "VariableID:048c2878d3ecd73532ae6807b5d1980b494b4d98/-1:-1",
-              "targetVariableName": "color/terracotta100",
+              "targetVariableName": "color/terracotta-100",
               "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
               "targetVariableSetName": "core colours"
             }
@@ -1106,7 +1106,7 @@
             ],
             "com.figma.aliasData": {
               "targetVariableId": "VariableID:18c58ba3798ae1fb43854d5d2b67108093ccba70/-1:-1",
-              "targetVariableName": "color/mint700",
+              "targetVariableName": "color/mint-700",
               "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
               "targetVariableSetName": "core colours"
             }
@@ -1132,7 +1132,7 @@
             ],
             "com.figma.aliasData": {
               "targetVariableId": "VariableID:834117f9a87a5a818f88daffeb314df6b1dd8505/-1:-1",
-              "targetVariableName": "color/skyblue700",
+              "targetVariableName": "color/skyblue-700",
               "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
               "targetVariableSetName": "core colours"
             }
@@ -1157,7 +1157,7 @@
             ],
             "com.figma.aliasData": {
               "targetVariableId": "VariableID:62188dcf3da4f344587012d077237c15512d73ff/-1:-1",
-              "targetVariableName": "color/terracotta600",
+              "targetVariableName": "color/terracotta-600",
               "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
               "targetVariableSetName": "core colours"
             }
@@ -1186,7 +1186,7 @@
           ],
           "com.figma.aliasData": {
             "targetVariableId": "VariableID:262ce679be2a3d36db34e4461a9433c4ba3691a3/-1:-1",
-            "targetVariableName": "color/terracotta300",
+            "targetVariableName": "color/terracotta-300",
             "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
             "targetVariableSetName": "core colours"
           }
@@ -1212,7 +1212,7 @@
           ],
           "com.figma.aliasData": {
             "targetVariableId": "VariableID:35f9edf181b83b4dc069c75a9f869a6a6c02637e/-1:-1",
-            "targetVariableName": "color/blueberry300",
+            "targetVariableName": "color/blueberry-300",
             "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
             "targetVariableSetName": "core colours"
           }
@@ -1238,7 +1238,7 @@
           ],
           "com.figma.aliasData": {
             "targetVariableId": "VariableID:370633091e1f140f024d523cda4ebe13f91f4e4e/-1:-1",
-            "targetVariableName": "color/skyblue300",
+            "targetVariableName": "color/skyblue-300",
             "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
             "targetVariableSetName": "core colours"
           }
@@ -1264,7 +1264,7 @@
           ],
           "com.figma.aliasData": {
             "targetVariableId": "VariableID:20a9aae31d51fba428b2ffe139635c6bcc20a5b9/-1:-1",
-            "targetVariableName": "color/moonlight300",
+            "targetVariableName": "color/moonlight-300",
             "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
             "targetVariableSetName": "core colours"
           }
@@ -1291,7 +1291,7 @@
             ],
             "com.figma.aliasData": {
               "targetVariableId": "VariableID:048c2878d3ecd73532ae6807b5d1980b494b4d98/-1:-1",
-              "targetVariableName": "color/terracotta100",
+              "targetVariableName": "color/terracotta-100",
               "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
               "targetVariableSetName": "core colours"
             }
@@ -1317,7 +1317,7 @@
             ],
             "com.figma.aliasData": {
               "targetVariableId": "VariableID:418cda5ed8afbde2e0c6de8bd07beb770fc7ab3c/-1:-1",
-              "targetVariableName": "color/blueberry100",
+              "targetVariableName": "color/blueberry-100",
               "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
               "targetVariableSetName": "core colours"
             }
@@ -1343,7 +1343,7 @@
             ],
             "com.figma.aliasData": {
               "targetVariableId": "VariableID:a10e1f1221b57b8668459237403cc1f46e2daa87/-1:-1",
-              "targetVariableName": "color/skyblue100",
+              "targetVariableName": "color/skyblue-100",
               "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
               "targetVariableSetName": "core colours"
             }
@@ -1369,7 +1369,7 @@
             ],
             "com.figma.aliasData": {
               "targetVariableId": "VariableID:cf62dd81dc77b2c9b08a1bbb08acf718eb3ae53e/-1:-1",
-              "targetVariableName": "color/moonlight100",
+              "targetVariableName": "color/moonlight-100",
               "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
               "targetVariableSetName": "core colours"
             }
@@ -1398,7 +1398,7 @@
           ],
           "com.figma.aliasData": {
             "targetVariableId": "VariableID:58ab1f4c86939861320f62584f8a778957831672/-1:-1",
-            "targetVariableName": "color/grey100",
+            "targetVariableName": "color/grey-100",
             "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
             "targetVariableSetName": "core colours"
           }
@@ -1424,7 +1424,7 @@
           ],
           "com.figma.aliasData": {
             "targetVariableId": "VariableID:491406308d7e359660cbe451969b3e9fb3164773/-1:-1",
-            "targetVariableName": "color/grey50",
+            "targetVariableName": "color/grey-50",
             "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
             "targetVariableSetName": "core colours"
           }
@@ -1476,7 +1476,7 @@
           ],
           "com.figma.aliasData": {
             "targetVariableId": "VariableID:7b6e93216de972f5d2f12ff52dbc476693cde8ca/-1:-1",
-            "targetVariableName": "color/grey1000",
+            "targetVariableName": "color/grey-1000",
             "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
             "targetVariableSetName": "core colours"
           }
@@ -1506,7 +1506,7 @@
               ],
               "com.figma.aliasData": {
                 "targetVariableId": "VariableID:4e51eec7523642fa895283fbefd692086af12e23/-1:-1",
-                "targetVariableName": "color/blueberry50",
+                "targetVariableName": "color/blueberry-50",
                 "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
                 "targetVariableSetName": "core colours"
               }
@@ -1532,7 +1532,7 @@
               ],
               "com.figma.aliasData": {
                 "targetVariableId": "VariableID:418cda5ed8afbde2e0c6de8bd07beb770fc7ab3c/-1:-1",
-                "targetVariableName": "color/blueberry100",
+                "targetVariableName": "color/blueberry-100",
                 "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
                 "targetVariableSetName": "core colours"
               }
@@ -1558,7 +1558,7 @@
               ],
               "com.figma.aliasData": {
                 "targetVariableId": "VariableID:35f9edf181b83b4dc069c75a9f869a6a6c02637e/-1:-1",
-                "targetVariableName": "color/blueberry300",
+                "targetVariableName": "color/blueberry-300",
                 "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
                 "targetVariableSetName": "core colours"
               }
@@ -1584,7 +1584,7 @@
               ],
               "com.figma.aliasData": {
                 "targetVariableId": "VariableID:6e8220aafc5112b6f6022bb4947c7ba0dfa04c9b/-1:-1",
-                "targetVariableName": "color/blueberry600",
+                "targetVariableName": "color/blueberry-600",
                 "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
                 "targetVariableSetName": "core colours"
               }
@@ -1610,7 +1610,7 @@
               ],
               "com.figma.aliasData": {
                 "targetVariableId": "VariableID:31b467a1252128e0b3e361be4e5babcd78f128a9/-1:-1",
-                "targetVariableName": "color/blueberry700",
+                "targetVariableName": "color/blueberry-700",
                 "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
                 "targetVariableSetName": "core colours"
               }
@@ -1636,7 +1636,7 @@
               ],
               "com.figma.aliasData": {
                 "targetVariableId": "VariableID:8c03da8e3329f9533db605875d931e88f0aa4622/-1:-1",
-                "targetVariableName": "color/blueberry800",
+                "targetVariableName": "color/blueberry-800",
                 "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
                 "targetVariableSetName": "core colours"
               }
@@ -1662,7 +1662,7 @@
               ],
               "com.figma.aliasData": {
                 "targetVariableId": "VariableID:31f75f9bd113059e712324085f70e2465a3384c1/-1:-1",
-                "targetVariableName": "color/blueberry900",
+                "targetVariableName": "color/blueberry-900",
                 "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
                 "targetVariableSetName": "core colours"
               }
@@ -1690,7 +1690,7 @@
               ],
               "com.figma.aliasData": {
                 "targetVariableId": "VariableID:491406308d7e359660cbe451969b3e9fb3164773/-1:-1",
-                "targetVariableName": "color/grey50",
+                "targetVariableName": "color/grey-50",
                 "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
                 "targetVariableSetName": "core colours"
               }
@@ -1716,7 +1716,7 @@
               ],
               "com.figma.aliasData": {
                 "targetVariableId": "VariableID:58ab1f4c86939861320f62584f8a778957831672/-1:-1",
-                "targetVariableName": "color/grey100",
+                "targetVariableName": "color/grey-100",
                 "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
                 "targetVariableSetName": "core colours"
               }
@@ -1742,7 +1742,7 @@
               ],
               "com.figma.aliasData": {
                 "targetVariableId": "VariableID:61bfb002a369ace999d76197156b71a054fb57cc/-1:-1",
-                "targetVariableName": "color/grey900",
+                "targetVariableName": "color/grey-900",
                 "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
                 "targetVariableSetName": "core colours"
               }
@@ -1770,7 +1770,7 @@
               ],
               "com.figma.aliasData": {
                 "targetVariableId": "VariableID:62100708800a0125f293c23ceadf14e47a4fe425/-1:-1",
-                "targetVariableName": "color/terracotta50",
+                "targetVariableName": "color/terracotta-50",
                 "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
                 "targetVariableSetName": "core colours"
               }
@@ -1796,7 +1796,7 @@
               ],
               "com.figma.aliasData": {
                 "targetVariableId": "VariableID:048c2878d3ecd73532ae6807b5d1980b494b4d98/-1:-1",
-                "targetVariableName": "color/terracotta100",
+                "targetVariableName": "color/terracotta-100",
                 "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
                 "targetVariableSetName": "core colours"
               }
@@ -1822,7 +1822,7 @@
               ],
               "com.figma.aliasData": {
                 "targetVariableId": "VariableID:cf0b60a46cb37d591ef9d883fa167616a0a3ff17/-1:-1",
-                "targetVariableName": "color/terracotta200",
+                "targetVariableName": "color/terracotta-200",
                 "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
                 "targetVariableSetName": "core colours"
               }
@@ -1848,7 +1848,7 @@
               ],
               "com.figma.aliasData": {
                 "targetVariableId": "VariableID:7f73fb0d22d85f550aff005c34705e2700271259/-1:-1",
-                "targetVariableName": "color/terracotta400",
+                "targetVariableName": "color/terracotta-400",
                 "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
                 "targetVariableSetName": "core colours"
               }
@@ -1876,7 +1876,7 @@
               ],
               "com.figma.aliasData": {
                 "targetVariableId": "VariableID:ef19cf5cdba3a60e0e209393c439ff44d2a60dc5/-1:-1",
-                "targetVariableName": "color/skyblue50",
+                "targetVariableName": "color/skyblue-50",
                 "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
                 "targetVariableSetName": "core colours"
               }
@@ -1902,7 +1902,7 @@
               ],
               "com.figma.aliasData": {
                 "targetVariableId": "VariableID:a10e1f1221b57b8668459237403cc1f46e2daa87/-1:-1",
-                "targetVariableName": "color/skyblue100",
+                "targetVariableName": "color/skyblue-100",
                 "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
                 "targetVariableSetName": "core colours"
               }
@@ -1928,7 +1928,7 @@
               ],
               "com.figma.aliasData": {
                 "targetVariableId": "VariableID:b4da2e383f5e46509f5d9343dcd42ee4a93c8556/-1:-1",
-                "targetVariableName": "color/skyblue200",
+                "targetVariableName": "color/skyblue-200",
                 "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
                 "targetVariableSetName": "core colours"
               }
@@ -1956,7 +1956,7 @@
               ],
               "com.figma.aliasData": {
                 "targetVariableId": "VariableID:55c920312a2b786a8fed0beda8337d8a47fc0e04/-1:-1",
-                "targetVariableName": "color/mint50",
+                "targetVariableName": "color/mint-50",
                 "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
                 "targetVariableSetName": "core colours"
               }
@@ -1981,7 +1981,7 @@
               ],
               "com.figma.aliasData": {
                 "targetVariableId": "VariableID:54bd6051d32a31311cd951febca86d7ae9398697/-1:-1",
-                "targetVariableName": "color/mint100",
+                "targetVariableName": "color/mint-100",
                 "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
                 "targetVariableSetName": "core colours"
               }
@@ -2008,7 +2008,7 @@
               ],
               "com.figma.aliasData": {
                 "targetVariableId": "VariableID:b3c429497eb446ed3a7f1a4deabcaec4985bb5d6/-1:-1",
-                "targetVariableName": "color/moonlight50",
+                "targetVariableName": "color/moonlight-50",
                 "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
                 "targetVariableSetName": "core colours"
               }
@@ -2033,7 +2033,7 @@
               ],
               "com.figma.aliasData": {
                 "targetVariableId": "VariableID:cf62dd81dc77b2c9b08a1bbb08acf718eb3ae53e/-1:-1",
-                "targetVariableName": "color/moonlight100",
+                "targetVariableName": "color/moonlight-100",
                 "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
                 "targetVariableSetName": "core colours"
               }
@@ -2063,7 +2063,7 @@
           ],
           "com.figma.aliasData": {
             "targetVariableId": "VariableID:c7d84e02814663b0d5a3a44b918dc8ca737fe45a/-1:-1",
-            "targetVariableName": "color/yellow300",
+            "targetVariableName": "color/yellow-300",
             "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
             "targetVariableSetName": "core colours"
           }
@@ -2089,7 +2089,7 @@
           ],
           "com.figma.aliasData": {
             "targetVariableId": "VariableID:98b0ce5bc527a47fe13c2a672673f2c561d460b0/-1:-1",
-            "targetVariableName": "color/grey300",
+            "targetVariableName": "color/grey-300",
             "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
             "targetVariableSetName": "core colours"
           }
@@ -2114,7 +2114,7 @@
           ],
           "com.figma.aliasData": {
             "targetVariableId": "VariableID:58ab1f4c86939861320f62584f8a778957831672/-1:-1",
-            "targetVariableName": "color/grey100",
+            "targetVariableName": "color/grey-100",
             "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
             "targetVariableSetName": "core colours"
           }
@@ -2143,7 +2143,7 @@
             ],
             "com.figma.aliasData": {
               "targetVariableId": "VariableID:316fde699ced9ce0cd621b1904b93548089089e6/-1:-1",
-              "targetVariableName": "color/grey200",
+              "targetVariableName": "color/grey-200",
               "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
               "targetVariableSetName": "core colours"
             }
@@ -2169,7 +2169,7 @@
             ],
             "com.figma.aliasData": {
               "targetVariableId": "VariableID:370633091e1f140f024d523cda4ebe13f91f4e4e/-1:-1",
-              "targetVariableName": "color/skyblue300",
+              "targetVariableName": "color/skyblue-300",
               "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
               "targetVariableSetName": "core colours"
             }
@@ -2195,7 +2195,7 @@
             ],
             "com.figma.aliasData": {
               "targetVariableId": "VariableID:58ab1f4c86939861320f62584f8a778957831672/-1:-1",
-              "targetVariableName": "color/grey100",
+              "targetVariableName": "color/grey-100",
               "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
               "targetVariableSetName": "core colours"
             }
@@ -2221,7 +2221,7 @@
             ],
             "com.figma.aliasData": {
               "targetVariableId": "VariableID:98b0ce5bc527a47fe13c2a672673f2c561d460b0/-1:-1",
-              "targetVariableName": "color/grey300",
+              "targetVariableName": "color/grey-300",
               "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
               "targetVariableSetName": "core colours"
             }
@@ -2275,7 +2275,7 @@
             ],
             "com.figma.aliasData": {
               "targetVariableId": "VariableID:58ab1f4c86939861320f62584f8a778957831672/-1:-1",
-              "targetVariableName": "color/grey100",
+              "targetVariableName": "color/grey-100",
               "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
               "targetVariableSetName": "core colours"
             }
@@ -2301,7 +2301,7 @@
             ],
             "com.figma.aliasData": {
               "targetVariableId": "VariableID:58ab1f4c86939861320f62584f8a778957831672/-1:-1",
-              "targetVariableName": "color/grey100",
+              "targetVariableName": "color/grey-100",
               "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
               "targetVariableSetName": "core colours"
             }
@@ -2327,7 +2327,7 @@
             ],
             "com.figma.aliasData": {
               "targetVariableId": "VariableID:31b467a1252128e0b3e361be4e5babcd78f128a9/-1:-1",
-              "targetVariableName": "color/blueberry700",
+              "targetVariableName": "color/blueberry-700",
               "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
               "targetVariableSetName": "core colours"
             }
@@ -2353,7 +2353,7 @@
             ],
             "com.figma.aliasData": {
               "targetVariableId": "VariableID:ef19cf5cdba3a60e0e209393c439ff44d2a60dc5/-1:-1",
-              "targetVariableName": "color/skyblue50",
+              "targetVariableName": "color/skyblue-50",
               "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
               "targetVariableSetName": "core colours"
             }
@@ -2382,7 +2382,7 @@
           ],
           "com.figma.aliasData": {
             "targetVariableId": "VariableID:79234b4ec63833287f64f470c0d30daf0272dec7/-1:-1",
-            "targetVariableName": "color/red500",
+            "targetVariableName": "color/red-500",
             "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
             "targetVariableSetName": "core colours"
           }
@@ -2408,7 +2408,7 @@
           ],
           "com.figma.aliasData": {
             "targetVariableId": "VariableID:c7d84e02814663b0d5a3a44b918dc8ca737fe45a/-1:-1",
-            "targetVariableName": "color/yellow300",
+            "targetVariableName": "color/yellow-300",
             "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
             "targetVariableSetName": "core colours"
           }
@@ -2434,7 +2434,7 @@
           ],
           "com.figma.aliasData": {
             "targetVariableId": "VariableID:49a7b47d7e58321697f61f68bf7315c20ad2cd44/-1:-1",
-            "targetVariableName": "color/mint300",
+            "targetVariableName": "color/mint-300",
             "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
             "targetVariableSetName": "core colours"
           }
@@ -2462,7 +2462,7 @@
           ],
           "com.figma.aliasData": {
             "targetVariableId": "VariableID:90d785b61f14a9fd33a59231d73940be98289e34/-1:-1",
-            "targetVariableName": "color/mint400",
+            "targetVariableName": "color/mint-400",
             "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
             "targetVariableSetName": "core colours"
           }
@@ -2488,7 +2488,7 @@
           ],
           "com.figma.aliasData": {
             "targetVariableId": "VariableID:570517881ca876facdb5dd70cf4a85f78f4e9fdc/-1:-1",
-            "targetVariableName": "color/yellow200",
+            "targetVariableName": "color/yellow-200",
             "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
             "targetVariableSetName": "core colours"
           }
@@ -2514,7 +2514,7 @@
           ],
           "com.figma.aliasData": {
             "targetVariableId": "VariableID:79234b4ec63833287f64f470c0d30daf0272dec7/-1:-1",
-            "targetVariableName": "color/red500",
+            "targetVariableName": "color/red-500",
             "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
             "targetVariableSetName": "core colours"
           }
@@ -2540,7 +2540,7 @@
           ],
           "com.figma.aliasData": {
             "targetVariableId": "VariableID:31f75f9bd113059e712324085f70e2465a3384c1/-1:-1",
-            "targetVariableName": "color/blueberry900",
+            "targetVariableName": "color/blueberry-900",
             "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
             "targetVariableSetName": "core colours"
           }
@@ -2566,7 +2566,7 @@
           ],
           "com.figma.aliasData": {
             "targetVariableId": "VariableID:15a67c23832e729dac7f5995b005a8677b1e1ee3/-1:-1",
-            "targetVariableName": "color/skyblue400",
+            "targetVariableName": "color/skyblue-400",
             "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
             "targetVariableSetName": "core colours"
           }
@@ -2594,7 +2594,7 @@
           ],
           "com.figma.aliasData": {
             "targetVariableId": "VariableID:491406308d7e359660cbe451969b3e9fb3164773/-1:-1",
-            "targetVariableName": "color/grey50",
+            "targetVariableName": "color/grey-50",
             "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
             "targetVariableSetName": "core colours"
           }
@@ -2620,7 +2620,7 @@
           ],
           "com.figma.aliasData": {
             "targetVariableId": "VariableID:84ae560e6dd63912925295c96065b1c84f50f865/-1:-1",
-            "targetVariableName": "color/blueberry1000",
+            "targetVariableName": "color/blueberry-1000",
             "targetVariableSetId": "VariableCollectionId:448363b37114616f8b6e1afcf36573ccf34ed287/-1:-1",
             "targetVariableSetName": "core colours"
           }

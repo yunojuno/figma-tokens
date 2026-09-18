@@ -8,6 +8,7 @@ import {
   BUILD_DIR,
   CSS_FILE,
   SCSS_FILE,
+  TAILWIND_FILE,
   TOKENS_DIR,
   build,
   cleanPath,
@@ -16,7 +17,9 @@ import {
   readTokenFiles,
   renderCss,
   renderScss,
+  renderTailwindTheme,
   resolveTokens,
+  tailwindToken,
 } from './build-tokens.js';
 
 const colour = (hex, alpha = 1, components = [0, 0, 0]) => ({
@@ -247,6 +250,113 @@ describe('renderCss', () => {
   });
 });
 
+describe('tailwindToken', () => {
+  const name = (tokenName) => tailwindToken({ name: tokenName, value: '1px' }).name;
+  const weight = (style) =>
+    tailwindToken({ name: 'text-heading-xl-font-weight', value: style }).value;
+
+  it('leaves core space values alone, since p-40 is not a class we want', () => {
+    assert.equal(name('space-0'), 'space-0');
+    assert.equal(name('space-40'), 'space-40');
+  });
+
+  it('moves semantic space tokens into the spacing namespace', () => {
+    assert.equal(name('space-margin-small'), 'spacing-margin-small');
+    assert.equal(name('space-component-padding-2xl'), 'spacing-component-padding-2xl');
+  });
+
+  it('leaves core border widths alone, as Tailwind has no namespace for them', () => {
+    assert.equal(name('border-5'), 'border-5');
+    assert.equal(name('border-full'), 'border-full');
+  });
+
+  it('leaves colours and radii untouched, as they are already in a namespace', () => {
+    assert.equal(name('color-blueberry-700'), 'color-blueberry-700');
+    assert.equal(name('color-action-primary-default'), 'color-action-primary-default');
+    assert.equal(name('radius-sm'), 'radius-sm');
+  });
+
+  it('drops the font-size suffix so the text namespace generates text-* classes', () => {
+    assert.equal(name('text-heading-xl-font-size'), 'text-heading-xl');
+    assert.equal(name('text-body-small-prominent-font-size'), 'text-body-small-prominent');
+  });
+
+  it('moves font families into the font namespace', () => {
+    assert.equal(name('text-heading-xl-font-family'), 'font-heading-xl');
+  });
+
+  it('pairs font weights with their font size', () => {
+    const mapped = tailwindToken({ name: 'text-heading-xl-font-weight', value: 'Bold' });
+    assert.equal(mapped.name, 'text-heading-xl--font-weight');
+  });
+
+  it('turns Figma style names into numeric font weights', () => {
+    assert.equal(weight('Regular'), 400);
+    assert.equal(weight('Semi Bold'), 600);
+    assert.equal(weight('Bold'), 700);
+  });
+
+  it('treats Font Awesome\'s Solid style as a weight', () => {
+    assert.equal(weight('Solid'), 900);
+  });
+
+  it('passes an already numeric weight straight through', () => {
+    assert.equal(weight('500'), '500');
+  });
+
+  it('throws on a style name it cannot turn into a weight', () => {
+    assert.throws(() => weight('Ultra Condensed'), /Unknown font weight "Ultra Condensed"/);
+  });
+
+  it('carries the description through the rename', () => {
+    const mapped = tailwindToken({
+      name: 'space-margin-small',
+      value: '15px',
+      description: 'Small margin',
+    });
+    assert.equal(mapped.description, 'Small margin');
+  });
+});
+
+describe('renderTailwindTheme', () => {
+  const tokens = [
+    { name: 'color-white', value: '#ffffff', description: 'UI background' },
+    { name: 'space-10', value: '10px' },
+  ];
+  const rendered = renderTailwindTheme(tokens);
+
+  it('warns against editing the generated file', () => {
+    assert.match(rendered, /^\/\*\*\n \* Do not edit directly, this file was auto-generated\.\n \*\//);
+  });
+
+  it('declares custom properties inside @theme rather than :root', () => {
+    assert.match(rendered, /@theme \{\n {2}--color-white: #ffffff;/);
+    assert.match(rendered, /\n\}\n$/);
+    assert.ok(!rendered.includes(':root'));
+  });
+
+  it('renders descriptions as CSS block comments', () => {
+    assert.match(rendered, /--color-white: #ffffff; \/\* UI background \*\//);
+  });
+
+  it('renames tokens into their Tailwind namespace', () => {
+    const theme = renderTailwindTheme([{ name: 'space-margin-small', value: '15px' }]);
+    assert.match(theme, /--spacing-margin-small: 15px;/);
+    assert.ok(!theme.includes('--space-margin-small'));
+  });
+
+  it('throws when two tokens collapse onto the same Tailwind name', () => {
+    assert.throws(
+      () =>
+        renderTailwindTheme([
+          { name: 'text-heading-xl', value: '10px' },
+          { name: 'text-heading-xl-font-size', value: '32px' },
+        ]),
+      /Tailwind name "text-heading-xl" is produced by both text-heading-xl and text-heading-xl-font-size/
+    );
+  });
+});
+
 describe('renderScss', () => {
   const rendered = renderScss([
     { name: 'color-white', value: '#ffffff', description: 'UI background' },
@@ -306,9 +416,35 @@ describe('the real token set', () => {
 
   it('keeps the semantic colours aliased to the core palette in step', () => {
     const byName = new Map(tokens.map((t) => [t.name, t.value]));
-    // action.primary.default aliases core blueberry700 in Figma.
-    assert.equal(byName.get('color-action-primary-default'), byName.get('color-blueberry700'));
-    assert.equal(byName.get('color-text-accent'), byName.get('color-blueberry700'));
+    // action.primary.default aliases core blueberry-700 in Figma.
+    assert.equal(byName.get('color-action-primary-default'), byName.get('color-blueberry-700'));
+    assert.equal(byName.get('color-text-accent'), byName.get('color-blueberry-700'));
+  });
+
+  it('maps every semantic token onto a unique Tailwind name', () => {
+    const counts = new Map();
+    for (const { name } of tokens.map(tailwindToken)) {
+      counts.set(name, (counts.get(name) ?? 0) + 1);
+    }
+    assert.deepEqual([...counts].filter(([, n]) => n > 1), []);
+  });
+
+  it('exposes the semantic scales as Tailwind utilities', () => {
+    const names = new Set(tokens.map((token) => tailwindToken(token).name));
+    // p-component-padding-md, text-heading-xl, font-heading-xl, rounded-md.
+    assert.ok(names.has('spacing-component-padding-md'));
+    assert.ok(names.has('text-heading-xl'));
+    assert.ok(names.has('font-heading-xl'));
+    assert.ok(names.has('radius-md'));
+  });
+
+  it('gives every font weight a numeric value Tailwind can use', () => {
+    const weights = tokens
+      .map(tailwindToken)
+      .filter(({ name }) => name.endsWith('--font-weight'));
+    assert.ok(weights.length > 0, 'expected to find font weight tokens');
+    const bad = weights.filter(({ value }) => !/^\d+$/.test(String(value)));
+    assert.deepEqual(bad.map((t) => `${t.name}: ${t.value}`), []);
   });
 
   it('gives every dimension a unit unless it is zero', () => {
@@ -325,10 +461,14 @@ describe('build', () => {
   const outDir = mkdtempSync(join(tmpdir(), 'figma-tokens-'));
   after(() => rmSync(outDir, { recursive: true, force: true }));
 
-  it('writes both a CSS and an SCSS file', () => {
+  it('writes a CSS, an SCSS and a Tailwind theme file', () => {
     const { tokens } = build({ buildDir: outDir });
     assert.equal(readFileSync(join(outDir, CSS_FILE), 'utf8'), renderCss(tokens));
     assert.equal(readFileSync(join(outDir, SCSS_FILE), 'utf8'), renderScss(tokens));
+    assert.equal(
+      readFileSync(join(outDir, TAILWIND_FILE), 'utf8'),
+      renderTailwindTheme(tokens)
+    );
   });
 
   it('is idempotent', () => {
@@ -345,5 +485,10 @@ describe('build', () => {
     const message = 'committed build output is stale - run `npm run build` and commit the result';
     assert.equal(readFileSync(join(BUILD_DIR, CSS_FILE), 'utf8'), renderCss(tokens), message);
     assert.equal(readFileSync(join(BUILD_DIR, SCSS_FILE), 'utf8'), renderScss(tokens), message);
+    assert.equal(
+      readFileSync(join(BUILD_DIR, TAILWIND_FILE), 'utf8'),
+      renderTailwindTheme(tokens),
+      message
+    );
   });
 });

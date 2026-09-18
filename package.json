@@ -1,13 +1,13 @@
 {
   "name": "@yunojuno/figma-tokens",
-  "version": "2.0.0",
-  "description": "This is where we are testing figma tokens.",
+  "version": "1.1.0",
+  "description": "Generated CSS variables from Figma tokens",
   "main": "index.js",
   "scripts": {
     "build": "node build-tokens.js",
     "test": "node --test --test-reporter=spec"
   },
-  "author": "",
+  "author": "YunoJuno",
   "license": "ISC",
   "type": "module"
 }
